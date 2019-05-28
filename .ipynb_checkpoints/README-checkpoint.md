@@ -6,7 +6,8 @@
 
 ## Technical Requirements
 
-    pip install ...
+    pip install tika
+    
     
     
 ## Sources

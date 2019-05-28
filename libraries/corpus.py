@@ -15,6 +15,13 @@ import pandas as pd
 ###########################################################
 
 
+##### TODO
+
+# - Remove URL
+# - Function that receives a text and generate a corpus per sentence / parragraph.
+# - 
+########
+
 # a function to POS-tag each word for lemmatization
 
 
@@ -47,25 +54,24 @@ mystops = ['mr', 'said', 'sir', 'upon', 'mrs',
                                     'mind', 'right', 'house', 'three','every', 'day',
                                     'put', 'thats', 'quite',
                                     'call', 'could', 'even', 'eye', 'get', 'give', 'let', 'make', 'open',
-           'reply', 'turn', 'would']
+           'reply', 'turn', 'would', '•']
             
 
 
-def makeCleanCorpus(abspath = os.path.abspath('.') + '\\all-chapters\\',
+def makeCleanCorpus(dataset,
                     removePunct=True,
                     removeNums=True,
                     lower=True,
                     stops=[],
                     removeStopw=True,
-                    lemmatize=False,
-                    textlist=None):
+                    lemmatize=False):
     '''
     The makeCleanCorpus function will look for text files in the directory 
     specified by abspath. Change this to suit you.
-    
-    Other Arguments:
+    Input:
+        dataset:     Dictionary with the files and its text
         removePunct: Should punctuation be removed?
-        removeNums:  Should numbers be removed"
+        removeNums:  Should numbers be removed?
         lower:       Should words be converted to lower-case?
         removeStopw: Should stop-words be removed?
                      Apart for the standard English stop-words, the 
@@ -73,101 +79,49 @@ def makeCleanCorpus(abspath = os.path.abspath('.') + '\\all-chapters\\',
                      your own stop-words
         lemmatize:   Should words be lemmatized? The default is "False"
                      Changing this to true will (really) slow this function down!
-        textlist:    None by default. This function is intended for teaching 
-                     purposes. 
-                     Pass a list of sentences here to demonstrate the idea 
-                     of a DTM. None of the other options will work (right now) 
-                     if textlist is not None.
-                     
-        
-    If "textlist" is None (the default) this function looks for text files 
-    in the directory specified by the "abspath" directory and returns a dictionary 
-    called "clean_dict" in which the keys are the file names and the 
-    values are the cleaned up text.
-    
-    If "textlist" is a list of English sentences, this function will return 
-    a DTM for the list.
-    
     '''
+    ######
+    nltk.download('averaged_perceptron_tagger')
+    ######
     
     
-    def cleanUp(files):
-        '''
-            A nested function in the makeCleanCorpus() function.
-            This function cleans up the corpus using the arguments 
-            passed to the makeCleanCorpus() function.
-            This function returns a dictionary of filenames and cleaned up text.
-        '''
+    clean_files = {}
         
-        clean_files = {}
+    for filename, text in dataset.items():
+        print('Cleaning:', filename)
+        StopWords = stopwords.words("english") + mystops
         
-        for filename, text in files.items():
-            print('Cleaning:', filename)
-            #print(text[0:700])
-            #print("=" * 80)
-            StopWords = stopwords.words("english") + mystops
+        if lemmatize:
+            lemmatizer = WordNetLemmatizer()
             
+        # remove punctuation
+        # use the three argumnt form of text.maketrans()
+        if removePunct:
+            text = text.translate(text.maketrans('', '', string.punctuation))
+            
+        # remove numbers
+        if removeNums:
+            text = ''.join([x for x in text if not x.isdigit()])
+            
+        # convert to lower-case
+        if lower:
+            text = text.lower()
                        
-            if lemmatize:
-                lemmatizer = WordNetLemmatizer()
-            # remove punctuation
-            # use the three argumnt form of text.maketrans()
-            if removePunct:
-                text = text.translate(text.maketrans('', '', string.punctuation))
-            
-            # remove numbers
-            if removeNums:
-                text = ''.join([x for x in text if not x.isdigit()])
-            
-            # convert to lower-case
-            if lower:
-                text = text.lower()
-                       
-            # lemmatize words
-            if lemmatize:
-                word_list = nltk.word_tokenize(text)    
-                text = ' '.join([lemmatizer.lemmatize(w, get_wordnet_pos(w)) for w in word_list])
+        # lemmatize words
+        if lemmatize:
+            word_list = nltk.word_tokenize(text)    
+            text = ' '.join([lemmatizer.lemmatize(w, get_wordnet_pos(w)) for w in word_list])
                 
-            # remove stopwords
-            if removeStopw:
-                text = ' '.join([word for word in text.split() if word not in StopWords])
+        # remove stopwords
+        if removeStopw:
+            text = ' '.join([word for word in text.split() if word not in StopWords])
              
-            #print(text[0:700])
-            #print("=" * 80)
-            clean_files[filename] = text
-            
-        return(clean_files)
-    # end of nested function cleanUp
-    ############
+        #print(text[0:700])
+        #print("=" * 80)
+        clean_files[filename] = text
     
-    if textlist is None:  # reading all text files from a directory
-    
-        files = {}  # a dictionary to hold all the filenames and their content
-        # clean_dict = {}  # returns a dict with file-names as keys and text as values
-                
-        for filename in os.listdir(abspath):
-            #print(filename)
-            with open(abspath+filename, "r", encoding='latin-1') as file:
-                files[filename] = file.read()
-        
-            #print("Done reading file...\n\n")
-            #print('--'*25, '\n')          
-                
-        # call the function that cleans up the corpus
-        files = cleanUp(files)            
-                
-        print('\nDone!')
-        print('='*20)
-        return(files)
-            
-    else:  # a list of actual text has been passed to the argument textlist
-
-        files = {} # a dict to hold the text indexed by numbers       
-        index = range(1, len(textlist)+1)        
-        files = dict(zip(index, textlist))
-        files = cleanUp(files)
-        return(files)
-
+    print ("Done!")
+    return(clean_files)
 # end of function makeCleanCorpus
 
 def makeDTM(corpus, tfidf=False):
