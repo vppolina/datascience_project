@@ -19,7 +19,7 @@ import pandas as pd
 
 # - Remove URL
 # - Function that receives a text and generate a corpus per sentence / parragraph.
-# - 
+# - Review Lemmatization, seems not to be working
 ########
 
 # a function to POS-tag each word for lemmatization
@@ -54,12 +54,13 @@ mystops = ['mr', 'said', 'sir', 'upon', 'mrs',
                                     'mind', 'right', 'house', 'three','every', 'day',
                                     'put', 'thats', 'quite',
                                     'call', 'could', 'even', 'eye', 'get', 'give', 'let', 'make', 'open',
-           'reply', 'turn', 'would', '•']
+           'reply', 'turn', 'would', '•' , '–']
             
 
 
 def makeCleanCorpus(dataset,
                     removePunct=True,
+                    removePunctExcept=False,
                     removeNums=True,
                     lower=True,
                     stops=[],
@@ -99,6 +100,9 @@ def makeCleanCorpus(dataset,
         if removePunct:
             text = text.translate(text.maketrans('', '', string.punctuation))
             
+        # remove punctuation except the point (to make sentences)
+        if removePunctExcept:
+            text = text.translate(text.maketrans('', '', string.punctuation.replace(".","")))
         # remove numbers
         if removeNums:
             text = ''.join([x for x in text if not x.isdigit()])
