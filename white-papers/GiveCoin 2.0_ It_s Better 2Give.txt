@@ -1,0 +1,434 @@
+﻿*** GiveCoin 2.0 D R A F T ***
+Updated 2017.09.06
+
+
+ icon2_128x128@2x.png 
+
+
+
+2GIVE.INFO
+
+
+(GiveCoin 2.0)
+
+
+Kickstarting a Virtuous Cycle in Social & Charitable Giving
+
+
+“It’s Better 2Give”
+
+
+@TheLittleDuke -  thelittleduke@givecoin.io - Skype: The_Little_Duke
+
+
+
+
+
+
+Givecoin 1.0
+
+
+In 2015, the Minnesota nonprofit organization Strength in Numbers Foundation (SNF) agreed to take over maintenance of the Givecoin blockchain (GIVE).  The original chain had been developed as an X11[1] hash suite cryptocurrency based on a version of Darkcoin (DARK).  The developers selected the Kimoto Gravity Well[2] (KGW) emit function to act as the coinbase’s throttling mechanism.
+
+
+Givecoin 1.0 suffered from “pool hoppers”, a mining collective that switches among chains when advantageous to do so.  This is somewhat ironic because the developer of KGW claimed to have designed it to deal with this very problem[3].  Our experience lends support that it can not only be exploited[4] but that it can actually be leveraged as a Denial of Service attack vector for thinly supported chains. The reader can watch the blockchain on its official explorer at https://www.blockexperts.com/give to see evidence of the “fits and spurts” the chain suffers from in terms of the cadence between blocks.
+
+
+Blockchains use a “difficulty variable” to throttle the rate of new blocks entering the chain as a means of attempting to set a regular cadence based on the chain’s designed target time; Bitcoin has a target of 10 minutes per block, whereas Litecoin manages to 2.5 minutes, etc.  When a coinbase’s difficulty drops due to low mining activity on the network, the pool hopper switches its processing power and mines until the difficulty suddenly rises to where it is no longer profitable and seeks other opportunities on other chains.  In the case of Givecoin with its KGW function, the difficulty would rise quickly and leave the chain hung up, sometimes for days. It means that stakeholders were unable to transmit their coins anywhere, especially to an exchange. This kind of friction in a cryptocurrency is a design flaw.
+
+
+Throttling on the blockchain is an artifice, designed to mitigate a 51% attack against the distributed ledger by targeting a cadence for block emission and acceptance. In fact one could conceive of a human agent driven blockchain that produced one block per day.  In this model you could use the software to inform the human agent that the transactions are valid and then using a multi-sig approach, have N of M human agents “attest” that the block is valid by digitally signing it and pushing it to the distributed ledger network.
+
+
+The core Bitcoin throttling mechanism is based on a concept known as Proof of Work (POW).  In this model, the winning miner must expend computer resources to find a solution to a mathematical puzzle.  The original concept comes from Adam Backs’ “HashCash”[5]  Often described in terms of the game Sudoku for humans, the average time it takes to solve a 4 x 4 Sudoku puzzle can be calculated, and if you get someone who is really good at solving that puzzle faster than the average, you simply increase the size of the puzzle to slow them down.
+
+
+An alternative to Proof of Work is a model known as Proof of Stake[6], first introduced into PeerCoin (PPC)[7] through a process known as Minting[8]. In minting, a stakeholder’s wallet is permitted to demonstrate to the network that it has a right to claim a nominal inflation adjusted fee for securing the network by sending coins to itself including a hardwired percentage based fee recollected by the wallet. Additional transactions in the memorypool may be folded into the block as well.  Because the difficulty to do so is relatively low from a processing power standpoint, combined with several other factors like minimum coin age and maximum staking values, it acts as a safety mechanism to prevent an attack on the chain.  In order to benefit from the ability to stake, coins must first be obtained and then divided into sufficiently small enough transactions to be eligible for staking.
+
+
+A charitable based blockchain should be designed to reward stakeholders in the economy, not just the bookkeepers (miners). However a chain based purely on rewarding current stakeholders does not encourage an economy to expand.  Therefore we have decided to leverage a POS/POW based model whereby stakeholders are rewarded for holding coins and running the wallet software combined with a reward for miners who can collect the transaction fees for securing the network.
+
+
+Satoshi Fixated on Transaction Fees
+
+
+One of the original design[9] decisions Satoshi Nakamoto selected that baffles us to no end was the inclusion of a FIXED transaction fee. If the value of Bitcoin was stable and had a universally agreed pegged exchange valuation it might make sense -- but even still assuming a complete “snow globe microcosm” where there was no need to convert coins into say, food, rent, mortgage payments et al, it would still make more sense to us to have a more flexible transaction fee model. A model that does not penalize small coin transfers while simultaneously and equitably distributing the costs of operation.  Fundamentally it costs more compute power to validate a large Bitcoin transfer that likely has many inputs than it does to validate a small, possibly “micro” or “pico” coin transfer that has a single input.
+
+
+As the mining reward continues to be cut in half, the idea presented in Satoshi’s original white paper was that in the long term the network would be powered by transaction fees. This is nowhere near, in our opinion, where it should be at this point given the amount of power required to secure the Bitcoin blockchain. In fact in section 6 “Incentive” of the seminal “Bitcoin: A Peer-to-Peer Electronic Cash System”, Satoshi wrote:                
+                                        
+The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.[10] 
+                                
+
+
+Technically, Bitcoin is “deflationary” -- as there is a fixed number of coins that could ever exist, however, coins have been accidentally lost because early adopters have sometimes forgot passwords to wallets, or inadvertently recycled the hardware that contained their wallets.  It is also the case that individuals have purposely destroyed coins in stunts to demonstrate value propositions such as the Counterparty burn address[11].
+
+
+We believe in a more elastic model and have decided to convert the field from a fixed fee amount that is voluntary, to a percentage based value that has a mandatory minimum 1% fee to reward Proof of Work miners for their compute power. What this means is that mining pools can watch the transaction log and determine when the reward is high enough to switch and devote mining power to earn the reward.
+
+
+Distributed Ledger But Consolidated Rewards
+
+
+One of the by-products of the Bitcoin economy is that all the rewards are accruing to the miners, where a concentration of power to the tune of a “top 2%” -- ironically similar in many ways to most fiat economies.  In fact the current debate about blocksize is being controlled essentially by two large mining operations in China.  So much for decentralized decision making.
+
+
+Furthermore the cost to run and maintain a full-node on the Bitcoin network now exceeds the reward for doing so.  Even if a user has a classic wallet software running the total download required as of the time of this edit is “over 20GB”[12]   The costs for hosting a connected wallet at a ISP or a Cloud Provider can be prohibitive in terms of data bandwidth consumption depending on how many connections are permitted.
+
+
+There is now literally ZERO incentive at this point for maintaining a full-node for the Bitcoin network.  In fact even the selfish purposes of keeping a personal wallet in-sync have been obviated by the deployment of lightweight clients, many of which use the Simplified Payment Verification (SPV) protocol[13] like Electrum and BreadWallet.
+
+
+In the Proof of Stake model, coin holders are rewarded for maintaining a copy of the distributed ledger through the process of “minting” new coins via a nominal inflation reward.  As was noted in the BlackCoin V2 protocol[14] there exists a so called “greedy honest node” issue whereby coin holders keep their wallets offline and only sync with the network to stake and then disconnect.  This isn’t actually a bad thing from our perspective as it keeps a percentage of coins out of circulation.  However, we can encourage better behavior by changing the rules by which coins are considered eligible for staking.  For example, we could prevent any coins that are older than 30 days, which permit the nominal inflation to accrue on recent transactions.  This encourages a higher velocity in the coinbase.  There are several forms of stimulus that could be designed including random rewards by organizations to coinholders who are donating to vetted/approved charities -- a system that would be relatively easy to do watching the blockchain and then rewarding senders on a periodic basis.
+
+
+One additional Proof that we have considered we’re calling “Proof of Blockchain” or “Proof of Storage” -- a model whereby a seed value to the Proof of Work could be derived by selecting N number of sectors within the blockchain to then factor in as part of the hash.   This model needs further consideration and research.
+
+
+GiveCoin 2.0
+
+GiveCoin 2.0 (2GIVE) has been designed from the ground up to preserve the charitable nature of the original intent of Givecoin (GIVE), while dramatically shifting the reward mechanism to one of a shared interest or “stakeholder” model.  The chain supports a Proof of Stake transaction that allows stakeholders the ability to be rewarded for holding onto coins by permitting them to claim a nominal inflation rate[15] for securing the network through their staking transactions, while simultaneously establishing a minimal 1% transaction fee (TXFEE) designed to encourage miners to participate and produce Proof of Work blocks.
+
+
+SNF considers Proof of Work computation to be “Proof of Waste” given the tremendous amount of energy spent on Bitcoin mining operations and so we have radically altered the way the 2GIVE chain is secured that is much more eco friendly.
+
+
+We have selected a completely different codebase, namely the last viable wallet produced by another charitable coinbase named Clean Water Coin (WATER).  The WATER wallet has some updated GUI components include a “Donate” tab within.  It’s based on a version of the Peercoin (PPC) wallet, and uses the Scrypt hashing function instead of the X11 suite, which is frankly overkill for the low power mining operations needed to support Proof of Stake.   We also selected Scrypt as we may in the future allow 2GIVE to be “merged-mined” along with other coinbases like Litecoin and Dogecoin.
+
+
+This POS/POW model allows individuals or even pools to set a mining threshold and participate in the securing of the chain when the reward mechanism meets their requirements.  This is similar to a lottery system when the jackpot rises it encourages otherwise disinterested parties to participate.  This also creates an incentive for new participants to enter the economy without having to “pay to play” by acquiring coins from an exchange.  They can simply donate processing power to help secure the network.
+
+
+The POW reward is based solely on the available TXFEE’s in the given viable block and the chain rejects empty blocks as non-value-added.  This protects the chain against mining pools from attempting to run up the difficulty of the network, and in fact encourages their participation when it’s to their advantage.
+
+
+In the GiveCoin 2.0 model, there is no advantage for POW based miners to waste resources attempting to solve a POW block that does not have any transactions in it since the only reward for doing so is to collect the TXFEEs and because the network is designed to reject non-value-added blocks.  Add the fact that a wallet knows if an address is local to it, sending coins among its addresses are ineligible for transmission on the network.  An attacker could set up multiple nodes and send coins back and forth between wallets in an attempt to spam the chain or try and double-spend coins, however since they would be competing for their own coins in the TXFEEs they would run the risk that some other node could solve the block before they do and thereby lose the value of their collective assets.  A high-speed version of this attack could drive up the difficulty of the network and could be mitigated by creating a POS difficulty variable separate from the POW difficulty.  The gossip protocol could also be modified to detect high-speed emissions from nodes and simply drop them with a temporary ban.  And finally a time-based element could be introduced that would prevent blocks with less than a one minute interval (plus/minus some allowance for skew) from entering the chain.
+
+
+The POS staking interval for maturation of GENERATE transactions has been lowered to 10 blocks to be in line with POW rewards and normal SEND_TX schedules.  The original Bitcoin design required ~120 block depth on generated coins to account for potential ORPHAN blocks that can occur when another node generates a block with more transactions or at a higher difficulty, since the blockchain favors the longer length and values the higher difficulty.  Since the normal confirmation window in Bitcoin is six block depth, it doesn’t make sense to make a generate tx (in this case a POS tx) wait any longer for spend eligibility.  GiveCoin 2.0 has initially collapsed both schedules to 10 confirmations.
+
+
+
+
+
+
+
+
+A token of our appreciation
+
+
+Every cryptocurrency must demonstrate utility.  Without a viable exchange, most alternatives to Bitcoin (so called ‘ALTS’) are simply brand coins, often designed and deployed in a way to enrich the developers only; a ponzi scheme at worst.
+
+
+Even if an ALT such as 2GIVE is listed on a cryptocurrency exchange such as Bittrex.com does not demonstrate that it has utility.  There is a vicious cycle between miners and speculators that develops fueled largely by marketing and market manipulation.  One only has to look at the current KARMA coinbase to witness this abusive co-dependent relationship.
+
+
+GiveCoin 2.0 through its support of the non-profit Strength in Numbers Foundation (SNF) will establish a new reference model for exchange that demonstrates not only utility of its coinbase, but also a competitive advantage for the acquisition and transaction using GiveCoins.  The reference implementation will be hosted on Do a Bit of Good (https://doabitofgood.com) -- an SNF digital property that combines a screen-saver with a crypto-currency miner.
+
+
+
+
+
+
+“Today’s charitable giving is brought to you by our generous underwriters”
+
+
+It is a very common practice for non-profit radio and television stations to solicit donations from corporate sponsors who in return for their financial support are permitted to supply a “by-line” that is read or displayed (along with a logo) before, during and after the airing of a segment.  It is essentially an advertisement on a not-for-profit network.
+
+
+SNF believes that a similar model can be developed in a cryptocurrency exchange system, whereby vetted underwriters are encouraged to acquire a non-profit’s cryptocurrency tokens at whatever fair market value is considered reasonable and then are encouraged to repatriate those tokens back to another non-profit for someone else to acquire.  This is what we call “a virtuous cycle in charitable giving”.  These transactions would likely enjoy a tax-advantaged status, depending on jurisdiction and legal status of the non-profit.
+
+
+Here’s an example:   Second Chance Animal Rescue leverages the Do A Bit Of Good screen saver to socialize it’s adoptable pets.  Their supporters run the screen-saver which in turn works to secure the 2GIVE network competing for POW blocks, the TXFEEs of which get donated to Second Chance.   Second Chance in turn can offer those coins up for bid, much in the same way they host silent auctions for donated items.  An underwriter can acquire the coins for whatever rate is deemed acceptable to Second Chance who will receive the fiat currency (via PayPal, or credit card transaction, or private sale et al).  The underwriter receives the benefit of having made the donation, the cryptocurrency transaction serves as a receipt in the public ledger.  The underwriter is then encouraged to donate those coins to any other non-profit for someone else to acquire.  The value of that donation is likely only either realized at the time they are acquired or at the time they are re-donated, but not both.  Underwriters are encouraged to seek their own tax and legal advice, which varies based on jurisdiction.
+
+
+It is our sincere hope and desire that this model be replicated by other responsible parties.
+
+
+2GIFT: GiveCoin 2.0 as a Social Tipping Platform
+
+
+Get ready 2GIFT !
+We've added in support for QR-CODES in the wallet for the express purpose of printing 2GIVE paper wallets!!
+We use an HTML templating system that leverages the web browser for rendering and printing. We produce a single fully encapsulated .html file that contains both the public and private 2GIVE addresses as well as the QR-CODES.
+The templates could be digitally signed by SNF to prevent the potential threat vector of someone introducing malware into the stream.
+We also envision this channel as a potential Marketplace offering where creative stakeholders could offer to sell templates -  think greeting cards, birthday, graduation -- anything worth celebrating!
+We have formed a partnership with http://coinoutletatm.com and will include location maps of their BTMS as part of our Gift* paper wallets.
+The core idea is to help build the community by using 2GIVE as a social tipping platform!
+The vanity addresses begins with Gift*
+The best way to expand the economy is by bringing more people in.  We see this a way of introducing the next generation of cryptocurrency users by pairing a small paper wallet with a map to the BTM.   We think the service industry is an ideal amplification network to test the concept on.
+ 
+This system and capability can allow for a physical real-world “air-drop” campaign.
+
+
+________________
+
+
+
+
+Proof of Giving (PoG)  aka “Grants”
+
+
+We are introducing a new variant on top of the Proof of Stake system that will allow any stakeholder the ability to designate a percent of their staked coins generated to be automatically donated to an approved charitable or social giving cause.
+
+
+The desktop wallet software as of Release Candidate 6 (RC6) includes an in-wallet database of approved “campaigns” by organizations such as Sean’s Outpost and Leech Lake Legacy.  This list will be driven by our stakeholder nominations and voting via website in the future and individuals can petition as well such that 2GIVE could become a GoFundMe like system.
+
+
+The basic concept would allow a stakeholder the ability to select a mixture of campaigns to support and then whenever their wallet staked its coins it would automatically bundle in the send transactions to the causes as part of the Proof of Stake, thus becoming a Proof of Giving block added to the chain.  Since the POS block is permitted there would be no additional TXFEE added for the sends, making it essentially a free to support model on top of the 2GIVE network.
+
+
+
+
+Pay to Peer as a “Proof of Storage”
+
+
+Running a full bitcoin node induces a “parasitic cost” and is largely a goodwill effort since there is no reward to do so.  In fact in some situations it can cost the node significant fees from hosting providers due to the bandwidth.  The author had to limit his bitcoin node at a colocation center due to hundreds of connections that were pushing his monthly bandwidth quota over contracted rates.
+
+
+In a Pay to Peer model, wallets could opt-in to voluntarily disclose their public address in order to be eligible for a nominal reward for wallets peering.
+
+
+In fact with the right changes to the gossip protocol nodes could reject connections from non-paying wallets.  Using a multi-send wallets doing transfers (or even staking) could send small bits of 2GIVE to it’s peers as a reward for not only downloading the chain, but also accepting transactions.   This could be embodied in a RELAY_FEE, with individual nodes declaring their own “cost to peer.”
+
+
+Teleport Protocol
+
+The core idea here is that a wallet spins off a verifiable secondary set of keys in its own wallets, digitally signing it and then sending the private key to the recipient for them to import and immediately transfer to another of its own addresses.
+
+The idea of "teleport" is that intra-wallet transfers would be "fee-free" due to the ability to track movement.
+
+
+
+
+________________
+
+
+
+
+
+
+Frequently Asked Questions
+
+
+0. Where can I get more information about 2GIVE?
+
+
+FaceBook:         https://www.facebook.com/projectgivecoin/
+Twitter:          https://twitter.com/2GiveCoin
+Website:         https://2Give.Info
+GitHub:        https://github.com/LittleDuke/2GIVE
+Slack:                https://2give.slack.com
+
+
+
+
+
+
+1. What is the advantage (if any) of having a non-profit back the development of 2GIVE?
+
+
+We found through our early work on Do a Bit of Good that non-profits were hesitant to get involved with a for-profit entity.  We think that in order to have a credible message we have to be willing to “eat our own dogfood” :-)
+
+
+Furthermore, non-profits have very strict reporting requirements that help to assure transparency and oversight.  (US IRS Form 990)
+
+
+We also want to avoid any question of whether Strength in Numbers Foundation is offering an unregistered security, something that can get for-profit companies in trouble by giving the appearance of selling stock to unqualified individuals.  A non-profit corporation does not have shareholders and is exempt from registration with the Securities and Exchange Commission.   
+
+
+2.  What’s the plan to bridge Givecoin 1.0 (GIVE) to GiveCoin 2.0 (2GIVE)
+
+
+The implementation details for 2GIVE have been finalized and we have created a new genesis block and the first 500 blocks now contain the 500M coins intended in the original chain, bound to vanity addresses starting with “GiveCoin*” that have been earned among the seed nodes.  We have arranged the coin swap on Bittrex.com who will collect and escrow GIVE and then convert holders to 2GIVE.   At the end of the exchange window Bittrex will notify Strength in Numbers Foundation of the number of coins in each holder’s wallet and we will then transfer 2GIVE to Bittrex to distribute.  Bittrex then will then send the V1 coins to a Strength in Numbers wallet.  After this date the peering node will be disabled and no further mining to power the network will be performed by Strength in Numbers Foundation.
+
+
+Any coin conversions after this period will be at the sole discretion of any exchange that elects to list GIVE v1 as it will no longer be recognized nor supported by Strength in Numbers Foundation.
+
+
+
+
+
+
+OFFICIAL SCHEDULE
+
+
+Sunday May 1st, 2016 - Sunday May 8th, 2016
+~ 250M 2GIVE will begin flowing to Bittrex in 1M coin blocks randomly throughout the week creating an 10K block reward available to POW miners
+Sunday May 8th: 
+Deposits of GIVE v1 will end at midnight
+Monday May 9th: 
+Bittrex will swap GIVE for 2GIVE
+Tuesday May 10th: 
+Exchange opens for 2GIVE including deposits and withdrawals.
+
+
+
+
+
+
+
+
+
+
+
+
+3. What will Strength in Numbers do with the extra coins?
+
+
+The plan is to fully distribute the coins over time through marketing campaigns, by making grants to non-profit and pro-social organizations in order to raise awareness as well as encourage the bringing about of what we call “A Virtuous Cycle in Charitable Giving.”   In the early production period there will be a single “GiveCoin*” vanity address in the wallets for donation of coins back to SNF for further redistribution.
+
+
+We will basically consider it to be a “fawcett” and plan to use it as a source of “matching grants” based on our experience from Do A Bit of Goods “bit4bit” concept - see https://doabitofgood.com/bit4bit
+
+
+We also believe that there is a significant opportunity to merge pro-social coinbases together to build a stronger community.  For example, we have been long-term supporters of Clean Water Coin (WATER) and have made the offer to do a “coin-swap” to bring them into our economy[16].
+
+
+4. Couldn’t Strength in Numbers “profit” from selling the coins itself on a secondary exchange?
+
+
+It is absolutely the case that SNF could and should be able to transfer coins to an underwriter.  This in fact is the very model we are advocating.  Because SNF is itself a non-profit ALL revenue (and expenses for that matter) MUST be disclosed in a fully transparent manner--SNF’s tax returns and other government filings are public documents. Additionally, as with other non-profits, none of the funds raised may benefit private parties in a non-charitable way.  We also believe that those funds could be used to acquire another non-profit’s coins.  This is fundamentally no different than how large non-profits like United Way operate today -- we are leveraging a full distributed public ledger in the 2GIVE blockchain to demonstrate HOW and WHERE the charitable giving happens. Just like a donation to NPR may get you a tote bag, a donation to SNF will get you some amount of 2GIVE to use and donate as you choose. In a lot of ways what we are proposing is more transparent than just about any other charitable giving organization in existence today.
+
+
+5. Why are you doing this?  What do you get out of it?
+
+
+Experience and street-cred.  What we have learned through this process is that we now believe we could create a completely generic cryptocurrency/crypto-equity wallet system that is driven by an external digitally signed XML or JSON file.  What this means is that we could develop a single engine that could execute just about any other blockchain!  It also means that we could have a more transparent set of rules for a chain instead of having to reverse engineer the source code to see what is really happening.  It builds confidence and trust in the process and integrity in the coinbase.
+
+
+We are also working on a new Identity and Reputation blockchain concept, tenatively named “IDCoins” -- http://bit.ly/idcoins
+
+
+And finally, we are in early discussions with the MNVest[17] community to explore the use of blockchain technology to support equity crowdfunding and shareholder voting support.
+
+
+
+
+
+
+
+
+6. What is the plan for merged-mining and side-chains?
+
+
+Once the exchange from V1 to V2 is complete and we have enough runtime with the new codebase we will finish the work on the charitable giving directory within the wallet.   It will be primarily driven by the vetted entities who register on https://doabitofgood.com
+
+
+In 2016 we plan to complete the research necessary to add AUXPOW support into the system and explore bringing other pro-social coinbases into our ecosphere.  We have been in some initial discussions with some of the developers of a couple of ALT coins whereby their chain could be powered by 2GIVE, much in the same way Namecoin (NMC) is powered by Bitcoin (BTC) and what the Dogecoin (DGC) community did to pair it with Litecoin (LTC).
+
+
+One of the initial side-chain projects we’re drafting now is along the lines of a “Voting Register” -- whereby stakeholders could participate in voting by demonstrating support registered in the side-chain.  This is a key technology we think is critical for our work on IDCoins as well as the crypto-equity blockchain work we are doing for MNVest.
+
+
+7. What is the purpose of collapsing the transactions in the wallet?
+
+
+During the Proof of Stake transaction, an unspent output is split into two new transactions that in turn become available for staking later.  This continual splitting causes the number of new blocks forming from POS to geometrically double and in the long run can cause chain bloat.  To counteract this, 2GIVE performs a “collapse” transaction during a normal send that gathers smaller unspent outputs and recombines them into a larger single unit.  It also attempts to take an additional 10% amount as part of its “change” back transaction to encourage additional coalescing.  Since this is done during a normal send, there is no additional TXFEE attached.
+
+
+
+
+8. What is a “Predictable Hard Fork” or “Re-Genesis Blocking” and why does it matter?
+
+
+One of the core problems with blockchain based transaction logs as implemented by cryptocurrencies such as Bitcoin is that the storage requirements for the entire chain grow dramatically over time.  A Predictable Hard Fork as proposed by us would periodically sweep through the chain and collect all unspent outputs and build a new genesis block based on them.  For example, we could set a target dataset size of 100K blocks and then as it approaches, nodes could compete for generating a new genesis block that contains all the unspent transaction outputs (“UTXO”)  of the last set.  The block that has the highest proof of work could win a reward for that round.  This could also be considered a “super-block”.
+
+
+Since all former data sets would still be available for historical review the integrity of the chain would still be maintained.
+
+
+9. Why is Bittrex handling the swap?
+
+
+At the advice of our attorneys we have entered into a Memorandum of Understanding that precludes Strength in Numbers Foundation from directly trading 2GIVE.  Bittrex is the premier USA based crypto-currency exchange that had previously provided a market for Givecoin 1.0 (GIVE)
+
+
+10. Why aren’t exchanges running Proof of Stake support?
+
+
+The staking process can be computationally expensive for an exchange to run -- on your own you are only concerned about your own coins.  Furthermore, most exchanges maintain a separate parallel ledger often implemented in a SQL compliant database and often not running a “full node” wallet.  We think this will actually encourage individuals to NOT store their 2GIVE at an exchange which has historically been shown to be a risky strategy.  
+
+
+Furthermore, due to the nature of 2GIVE’s “coin folding” mechanism, unspent outputs (“UTXO”) are folded back into the primary Give* address as a means to “de-fragment” the chain.  In fact the 2GIVE system purposely bundles up at least 10-20% more coins than are necessary to fulfill a “sendto” command in order to help with the de-fragmentation.
+
+
+Therefore since most exchanges will not be rewarding stakeholders with staked coins they could be earning on their deposits, we feel that the responsibility will be shifted back to the coinholder directly.   As a matter course, SNF typically asks that exchanges do not implement staking so that it encourages more stakeholders to maintain their coins in their own wallets to help reduce the risk of theft as well as help secure the network.  SNF believes that it is in stakeholders best interest to hold 2GIVE directly since they would be eligible to generate a 5% inflation adjusted return per annum on their holdings.
+
+
+
+
+11. What if V1 holders do not want to participate in 2GIVE?
+
+
+In reality the V1 chain will always exist so long as someone maintains a copy of it.  That’s what a distributed ledger provides.  Individuals can still mine the V1 coinbase if they want to and anyone is free to run wallets, seed nodes, websites, block explorers and exchanges and improve the open source.  Strength in Numbers Foundation (SNF) is simply withdrawing its support of the chain and the eligibility window to obtain a conversion to V2 has concluded.
+
+
+No coinbase offers any kind of warranty -- in fact the software expressly states that there is none.  SNF voluntarily picked up the development of the Givecoin V1 chain and has spent significant time and resources maintaining and subsequently improving the value proposition of the ecosphere.
+
+
+A blockchain is driven by a simple majority rule known as consensus -- in the case of Givecoin, SNF holds a majority of the V1 coins acquired through open market transactions over a two year period and accounts for nearly half of the coins held at Bittrex.  In concert with other majority stakeholders we have elected to move to a new chain, preserving a 1:1 coin swap.
+
+
+12. What is an “airdrop” and how does it work?
+
+
+To bring the chain up to a full self-sufficiency, coins need to be distributed over the first 30 day period in order to create the opportunity for future Proof of Stake blocks to be created.  Strength in Numbers Foundation plans to bounce large blocks of coins between its seed nodes at a particular cadence (TBD).  For example one proposal would be sending 100K blocks of coins that would produce a minimum 1,000 coin TXFEE that would be eligible for any miner the ability to compete for the reward.
+
+
+There is the matter of the large ~250M coin move to Bittrex that could generate additional rewards.  The current plan is to move 1M coin blocks over randomly in the final week before the swap occurs.  This would mean a 10,000 coin TXFEE reward.
+
+
+
+
+13. What is the the SNF “legacy fund” address “Give2SNF*” ?
+
+
+In 2017, SNF began consolidating the original GiveCoin* wallets into a single Give2SNF* address that at the time of this writing only existed as a paper wallet.  This address is meant to form a “legacy fund” for SNF and provide a means for stakeholders to monitor any liquidation events in the future.  SNF has an operating agreement in place at time of inception that stipulates that ANY sales MUST have a 30-day notification period in order to give the markets time to absorb the information to avoid any appearance of inside dealing (or worse being accused of a “pump & dump”).
+
+
+The 2017 consolidation “air drop” represents a multi-million coin disbursement targeted at 100,000 coin moves at a time dropping 1,000 coins onto the network per the 1% TXFEE.
+
+
+As a paper wallet, the Give2SNF* address is de facto NON-STAKING which means that SNF is voluntarily limiting the inflation of the entire coinbase due to its majority stake.
+
+
+On December 31, 2017 SNF disabled staking on all of its original GiveCoin* wallets. 
+
+
+
+
+X. Who is The Little Duke?
+
+
+LinkedIN:        http://linkedin.com/in/dvduccini
+Press:                http://www.stthomas.edu/news/bitcoin/
+                https://tech.mn/news/2017/05/26/silicon-prairie-online-is-a-minnesota-moonshot/
+
+
+
+
+
+
+
+
+________________
+[1] http://cryptorials.io/glossary/x11/
+[2] http://bitcoin.stackexchange.com/questions/21730/how-does-the-kimoto-gravity-well-regulate-difficulty
+[3] http://cryptorials.io/glossary/kimotos-gravity-well/
+
+
+[4] http://blog.vertcoin.org/?p=5
+[5] http://www.hashcash.org
+[6] https://en.bitcoin.it/wiki/Proof_of_Stake
+[7] https://en.wikipedia.org/wiki/Peercoin
+[8] https://en.wikipedia.org/wiki/Mint_(facility)
+[9] https://bitcoin.org/bitcoin.pdf
+[10] https://bitcoin.org/bitcoin.pdf
+[11] http://counterparty.io/news/why-proof-of-burn/
+[12] https://bitcoin.org/en/download
+[13] https://en.bitcoin.it/wiki/Thin_Client_Security
+[14] http://blackcoin.co/blackcoin-pos-protocol-v2-whitepaper.pdf
+[15] This inflation rate has not been determined at this time, but will be intended to map to a global inflation rate
+[16] https://bitcointalk.org/index.php?topic=526513.msg13713540#msg13713540
+[17] http://mnvest.org
