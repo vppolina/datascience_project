@@ -1,0 +1,1022 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ample_wp_en_0112
+
+
+ICO Process White Paper by AMPLE! Group
+Promoting Cosplayer Professionalism 
+
+Last Updated: 2017/12/3
+
+Whitepaper version 1.4
+
+
+
+2
+
+Background
+
+The animation market in Japan exceeded 1.8 trillion yen in 2015 amidst a record-breaking pace of sales over 
+three consecutive years. The expanding market trend continues, putting annual value within reach of 2 trillion 
+yen. 
+Through the rapid penetration of VOD and other services future-forward, the distribution of Japanese animation 
+content abroad is expected to increase; in turn, this growth will fuel the population growth of cosplayers around 
+the globe. The cosplay and associated markets (enthusiasts’ groups, cosplay apparel, maid and cosplay 
+services) have actually grown year on year to comprise a market today of 130 billion yen.
+
+The portrait lighting function implemented on the iPhone8 (announced on September 13, 2017) and other 
+advances to mobile cameras as of late suggest that the creative activities of cosplayers will occur more and 
+more within an immediate arm’ s reach.
+
+Alongside these recent trends described above, the cosplay platform AMPLE! launched in 2012 under the 
+mantle of bringing people all around the world together through cosplay and has grown to host 70,000 photos 
+posted by subscribers in 70 countries.
+With the goal of evolving AMPLE! beyond a global cosplayer community through the introduction of AMPLE! 
+Coin (ACO), a proprietary cryptocurrency, funding will be instituted through an initial coin offering (ICO).
+
+About this ICO
+
+ICO (Initial Coin Offering) is a method for procuring funds via the issuing and selling of original digital tokens. It 
+is a different form of transferring equity than that of stocks, and is more similar to crowd funding in that you are 
+simply purchasing tokens. At the time of sale for this token, it will not be recognized as Cryptcurrency. In order 
+for it to be recognized as Cryptcurrency, you must first circulate the token through a Cryptcurrency exchange for 
+it to become recognized as a Cryptcurrency. In other words, strictly speaking, ICO is not a method of raising 
+funds, but is a sales method for cryptocurrency. As for the buyers, instead of an investor investing in a project, 
+they are a buyer of the token.
+
+
+
+Table of Contents
+
+AMPLE! Ecosystem Structure
+
+　　Overview of AMPLE!
+
+　　Vision of AMPLE!
+
+　　Stage Progression of Taking Vision to Fruition
+
+　　Usage of Cryptocurrency
+
+Markets
+
+　　Animation Market
+
+       Cosplay Market
+
+Current Profile of AMPLE!
+
+　　Number of Subscribers
+
+       Breakdown by Country
+
+       Number of Posted Photos
+
+       SNS Account Impact
+
+“AMPLE! Coin (ACO)”
+
+       Description
+
+       Issuance of ACO
+
+       AMPLE! Market Engine
+
+      Bonus Distribution to Contributors in ACO Economy
+
+ICO Process
+
+      Presale Overview
+
+      Token Sale Overview
+
+      Benefits to Early Buyers
+
+      Benefits to Volume Buyers
+
+Security Considerations
+
+Consent to Covenants
+
+Team
+
+AMPLE! Group
+
+Revision History
+
+4
+
+11
+
+13
+
+14
+
+16
+
+18
+
+18
+
+19
+
+21
+
+22
+
+3
+
+
+
+AMPLE! Ecosystem StructurⅠ.
+
+The platform service AMPLE! is for cosplayers worldwide, and currently such cosplayers using the services are 
+in Japan, North America, Europe, Asia, Oceania, etc. The specialty site for cosplay posts emerged in October 
+2012 to enable free expression of worlds held among cosplayers from around the world, and has operated with 
+its purpose focused on compiling relatively high-quality cosplayer images. 
+Currenty, the citizenship of users are from 70 countries, and number of posts of photos has reached 70,000, and 
+the site continues to provide world-class cosplay images at high quality.
+
+[AMPLE! Official site]  
+
+4
+
+Overview of AMPLE!
+
+http://ample-cosplay.com/
+
+
+
+To date, AMPLE! has operated its mission 
+
+under the mantle of bringing people all around 
+
+the world together through cosplay. The effort 
+
+for the next few years will be to develop 
+
+professional cosplayers.
+
+Some cosplayers, in fact, have successfully 
+
+turned their activities into a professional 
+
+occupation; however, we believe there is 
+
+considerable room for growth across the entire 
+
+industry in this regard. As Youtubers have 
+
+gained professional status, the entire cosplay 
+
+market domain can be amplified to create a 
+
+system to pay sufficient recompense that will 
+
+lead to as many occupational cosplayers as 
+
+possible.
+
+Turning “Cosplayer” 
+into a profession.
+
+Vision of AMPLE!
+
+5
+
+
+
+6
+
+Provisioning a platform to create an economy around cosplayers globally
+
+The first course of action will be to provide tools that enable the 7,000 cosplayers currently registered to 
+respectively procure funds. Fans will discover their favorite cosplayers located throughout the world and lend 
+support with ACO, an easy wayto become a patron (supporter) of a particular cosplayer.
+
+STAGE1
+
+Cosplayers and fans connect virtually online as cosplayers express themselves freely on their own individual 
+stage. Patrons can spend ACO to support their favorite cosplayers in real time. Plans call for active patrons to 
+obtain exclusive offers from such cosplayers.
+
+A!
+
+Cosplayer
+
+ACO
+
+Sponsor
+
+・Invitations to events
+・Merchandise
+・Discount of products
+
+Stage Progression of Taking Vision to Fruition
+
+Provisioning a platform to create an economy around 
+cosplayers globally
+
+Cosplayers transform into content and go global
+
+Mainstreaming professional cosplayers
+
+STAGE1
+
+STAGE2
+
+STAGE3
+
+
+
+7
+
+AMPLE! has previously instituted a loyalty program called AMPLE! Point System, whereby fans can send gifts to 
+their favorite cosplayers. The points in circulation through this loyalty program, however, have been limited in 
+usage for securing preferred publication space on AMPLE! The limitation has proven to be a bottleneck and a 
+challenge that has thwarted circulation growth.
+What happened? In the past, monetary and legal hurdles impeded our desires to achieve a world that could 
+uphold our ideals. This ICO process will enable funding to clear these hurdles. As we learn from past mistakes, 
+the circulation of cryptocurrency ACO will support global, supportive transactions that will generate diverse 
+expression.
+Moreover, as we strive to provide a world to enable free expression among cosplayers, those with particularly 
+individualistic expression will be provided with a system to facilitate funding that will generate even more 
+diverse expression.
+When our ideal world is created, AMPLE! will have become the platform representing cosplayers in such a way 
+as to create an economy around cosplayers.
+
+Cosplayers transform into content and go global
+
+Registered cosplayers will provide live commerce services that enable a straight-forward global development of 
+their own content. Fans from around the world will gain convenient access to information about their favorite 
+cosplayers, and AMPLE! will spawn numerous small economies around such cosplayers with this service.
+The platform exploiting the latest technology will allow cosplayers to be their own curator and introduce various 
+content and product as live video and VR video to their fans. Cosplayers to date have primarily performed in 
+physical space, but with the latest technology the breadth of expression and means of delivering the art have 
+enlarged. Consequently, cosplayers who couldn’ t gain exposure previously have an opportunity to portray their 
+distinctive world and gain support from many more fans. The real-time connection afforded between adoring 
+fans and their favorite cosplayers will enable fans to purchase such content with ACO.
+
+STAGE2
+
+Provisioning a system to deliver content expediently and globally for all cosplayers wherever they reside in the 
+world will seed small economies centered on those cosplayers around the globe. We foresee communities 
+emerging with distinctive character tuned to each cosplayer in these economies, a world where cosplayers and 
+fans mutually support each other. This is the world we currently are contemplating.
+
+A!
+
+Cosplayer
+
+ACO
+
+SponsorLive video
+Sponsorship Limited
+
+Support & Purchasingoods
+
+
+
+8
+
+This process will solidify the status of AMPLE! as a platform that can generate cosplayer economies.
+
+Mainstreaming professional cosplayers
+
+AMPLE! intends to provide comprehensive support to cosplayers active on the platform. Funds procured for 
+operations with take the form all efforts required in enhancing promotional activities and values for the entire 
+cosplay industry.
+In the process of cosplayers engaging in activities on the platform described above, support functions will 
+become necessary. Consequently, AMPLE! intends to offer the following support to cosplayers worldwide.
+
+STAGE3
+
+●     Production and sales support of merchandise
+
+DVDs, photobooks, and figures of cosplayers attaining 
+a certain rating level within AMPLE! are produced for 
+sale on a global marketplace.
+
+●     Live event support
+
+A system will be provided for live events to be held 
+online through live streaming and VR technologies, 
+so that distinctive cosplayer worlds can be shared 
+globally.
+
+●     Phototaking event support
+
+Joint phototaking parties with popular cosplayers will 
+be held periodically around the world.
+
+●     Live-action anime
+
+After entering into collaborative relationships with 
+rights holders, popular animation content will be 
+produced as live action movies on a popular layer 
+and streamed on VOD services.
+
+
+
+The support described provides a lineup approximating the function of a production company engaged across 
+various domains. 
+
+●     Stage performances
+
+We will enter into collaborative relationships with 
+rights holders and produce popular animation titles for 
+the stage. Effective utilization of AR and sensor 
+technologies will produce a stage integrated with the 
+audience̶more than merely a platform.
+
+●     Assembling of idol groups
+
+Selected members will form idol groups as part of 
+establishing the “cosplay idol” genre and engage in 
+activit ies beyond the confines of particular 
+countries
+
+The function as production company, as well as the following business development will enable AMPLE! to 
+contribute to further awareness and enhancement for the cosplay industry.
+
+●     Large-scale events
+
+Several renowned cosplay events exist around the 
+world; plans here call for large-scale events with 
+slightly changes in orientation to be held.
+
+●     Alliance with events in other domains
+
+Events like e-Sports not necessarily events familiar 
+to the fan segments and fashion events supported 
+by teen subscribers will be targetted for on-site 
+assignment of cosplayers.
+
+●     School established to support cosplayers.
+
+In order to raise the bar across the entire industry, we 
+will open a special school to support cosplayers. 
+Currently, predecessors in the industry have achieved 
+high standards in cosplay through individual trial and 
+error. Structuring this expertise will lead to learning 
+content available online and offline to people around 
+the world.
+Instruction curricula at this school include makeup, 
+clothing and accessories, photography, space design, 
+song, dance, voice talent, performance, programming, 
+video production, music composition, and writing̶a 
+diverse range. The purpose is to enable acquisition of 
+professional skills associated with cosplay, anime, 
+and manga. ACO can be used for receiving the 
+education.
+The opportunity to learn is provided not only to 
+cosplayers, but others with interests in peripheral 
+disciplines. The bar will rise for the cosplay industry, 
+and the ACO economy will expand to peripheral 
+domains.
+
+●     Supplier of video anime and manga content 
+with free copyrights
+
+Cosplay typically involves a subject, a primary 
+creative work, from which the individual work is 
+created. Depending on circumstances of the rights 
+owner, however, some works do not allow the 
+desired cosplay activity.
+AMPLE! is considering production in the future of 
+content l ike videos, anime, and manga that 
+cosplayers can use freely.
+By generating primary creative works with free 
+copyrights, AMPLE! can further support cosplayer 
+activitites, and portray the world being promoted.
+
+All of the processes above enable AMPLE! to mainstream occupational cosplayers
+
+9
+
+
+
+10
+
+Usage of Cryptocurrency
+
+The cryptocurrency AMPLE! coin (ACO) to be issued at this time will undergo circulation along the entire stream 
+provided in the Stage Progression of Taking Vision to Fruition set forth above. ACO will be tendered across all 
+layers worldwide for direct support, product sales, and admissions to exclusive events, and applied to diverse 
+payment means in this space.
+
+As shown in the figure, ACO is used chiefly among cosplayers and their supporting fans. We wish to enable 
+ubiquitous usage of ACO in the space as currency. 
+For this to happen, technical integration with other companies’ services without limitation to the AMPLE! 
+platform will take place, while an enormous application array will be provided to cosplayers and fans on the 
+AMPLE! platform. 
+As cosplayers circulate ACO across the platform that enables unfettered expressions of their own worlds, they 
+will enhance the quality of their creative activity, while strong ties between fans and their favorite cosplayers 
+become possible. By connecting cosplayers and fans spread out globally through cryptocurrency unconstrained 
+by national borders, the issuance of this cryptocurrency should contribute to enhancing the entire market, in our 
+assessment.
+
+ACO
+
+Sponsor
+
+Exclusive offers
+
+AMPLE! as production
+Training / Producing
+
+ACOETH
+
+Cosplayer
+
+ACOMerchandiseMerchandise
+
+External e-commerce site
+ / Cosplay event
+
+ACO
+
+
+
+MarketsⅡ.
+
+As stated in the Background, the animation market in Japan has grown to more than 1.8 trillion yen (TV, movies, 
+videos, Internet delivery, and merchandising), and animation content sales overseas has grown to 35 billion yen.
+
+Anime Market Growth and Japan Anime Content Export Value
+(2016 Anime Industry Report, Association of Japanese Animations)
+
+Animation Market
+
+2,000 billion（USD）
+
+1,500
+
+1,000
+
+500
+
+0
+
+2009 2010 2011 2012 2013 2014 2015
+
+Anime of market size（Billion）
+
+40 billion（USD）
+
+30
+
+20
+
+10
+
+0
+
+2009 2010 2011 2012 2013 2014 2015
+
+Export value（Billion）
+
+Japanese animation, manga, and game content is believed to be slated for rapid worldwide penetration through 
+expanded VOD services enabled via increasingly faster Internet connections. The production of high-budget 
+live-action versions of Japanese animated series abroad such as the U.S. production of ONE PIECE, a project 
+that boasts unprecedented production budget offers another indicator in this respect. 
+ACO will ride on this wave of market expansion, and eventually aim to become a common currency for the 
+purchase and sale of animation content throughout the world.
+
+11
+
+
+
+Cosplay Market
+
+The cosplay and associated markets (enthusiasts’ association, cosplay apparel, maid and cosplay services) have 
+actually grown year on year to comprise a market today of 130 billion yen.Famous cosplayers in Japan such as 
+Enako and Otogi Nekomu have earned large profits on photobooks at spot sales targeting fan associations and 
+signing official cosplayer contracts associated with advertising animations and games; the number of individuals 
+engaged as occupational cosplayers has been increasing. 
+With subscribers in 70 countries around the world, AMPLE! will introduce ACO to virtual gifts and product sales 
+to create a professional cosplayer environment.
+
+12
+
+
+
+Current Profile of AMPLE!Ⅲ.
+
+More than 7,200 registered cosplayers from 70 countries.
+
+Number of Subscribers
+
+13
+
+Breakdown by Country
+
+69,455 枚
+
+Number of Posted Photos (as of Oct 2, 2017)
+
+SNS Account Impact (as of October 2, 2017)
+
+●     Facebook: 197,245
+●     Twitter: 7,852
+●     instagram: 5,816
+
+27.2%
+Japan
+
+16.7%
+Taiwan
+
+8.1%
+China
+
+8.1%
+Hong Kong
+
+Indonesia
+
+United States
+
+Malaysia
+
+Russia
+
+Korea
+
+Philippines
+
+Singapore
+
+Thailand
+
+Mexico
+
+Brazil
+
+Australia
+
+Argentina
+
+Vietnam
+
+Germany
+
+Canada
+
+5.3%
+
+3.7%
+
+2.2%
+
+2.8%
+
+2.5%
+
+2.2%
+
+2.1%
+
+2.1%
+
+2.0%
+
+1.3%
+
+1.3%
+
+1.1%
+
+1.0%
+
+0.9%
+
+0.8%
+
+
+
+“AMPLE! Coin (ACO)”Ⅳ.
+
+AMPLE! will issue the open source cryptocurrency called AMPLE! 
+Coin (ACO). ACO will become the counted monetary unit for 
+services to be settled within the AMPLE! economy, and the 
+standard for interoperation with other digital services. 
+ACO is anticipated to gain introduction into the public Ethereum 
+block chain as an ERC20 token, and transactions to be made at 
+the cryptocurrency exchange where ACO will be exchangeable 
+and transferable like other cryptocurrencies.
+
+Description
+
+ACO allotted to AMPLE! upfront will 
+be released in 10% parcels every 
+three months. For terminological 
+convenience, the system to manage 
+this allotment of 400 million ACO is 
+called AMPLE! Market Engine. At 
+the initial phase, the AMPLE! Market 
+Engine schema locks the 400 million 
+ACO, which are unlocked under the 
+prescribed timeline.
+
+AMPLE!
+
+Market Engine
+
+ICO process
+
+ACO Allotment
+
+30% 30%
+
+40%
+
+Issuance of ACO
+
+Of a total supply of 1 billion ACO, AMPLE! will distribute 300 million ACO in the ICO process. The proceeds of 
+this process will be used for the operations, marketing, development, legal affairs, and structuring of a 
+monitoring organization for AMPLE! and ACO. Another allotment of 300 million ACO will be initially placed with 
+AMPLE (allocated to board members, angel investors, and advisors), and the remaining 400 million ACO will be 
+strategically used to develop the AMPLE! economy over the long term.
+
+14
+
+
+
+AMPLE! Market Engine
+
+ACO distributed within AMPLE! Market Engine are circulated according to the engine mechanism for continual 
+development of the AMPLE! economy.
+
+Purpose 
+
+15
+
+ACO distributed within AMPLE! Market Engine are released according to the initially defined timeline. From the 
+moment the engine and new AMPLE! platform’ s main features are released, 12% of the remaining ACO balance 
+is unlocked perennially, of which 1% is released each month over the course of that year. Released ACO are 
+allocated to development, maintenance and operation of the engine at the minimum required percentage rate, 
+and the bulk remaining is awarded as bonuses to contributors to the AMPLE! economy.
+
+Supply Timeline
+
+The new AMPLE! will rate influencers according to a proprietary index to assign monthly rankings (defined as 
+AMPLE! Score for convenience here as the unit for rating measurements). AMPLE! scores will be awarded by a 
+function that can comprehensively rate the following items.
+
+Bonus Distribution to Contributors in ACO 
+
+●     Image quality ●     Support spend ●     Merchandise purchase
+●     Image posts ●     AMPLE! active ratio
+
+Influencers will be ranked according to the standard of earned AMPLE! scores, and ranked influencers and their 
+supporters will earn ACO bonus distributions. Several options exist for the specific rating method, which will be 
+finalized after repeated hypothesis and validation after the renewed service goes live. 
+The distribution ratio of influencer to supporters will be 1 : 1. For supporters, the proportion of support extended 
+by any supporter to a respective influencer out of the total amount of support for any given month will be the 
+proportion of bonus received out of the total bonus allocated to supporters of any influencer.
+
+
+
+ ICO ProcessⅤ.
+
+The AMPLE! ICO process is as follows: pre-sale, token sale, and listing on virtual currency exchange. The 
+minimum target for proceeds obtained through the current process is set at [3030.303 ETH]. If the proceeds do 
+not reach this figure, all ETH will be refunded. Even if the procurement amount is less than 100 million yen by 
+rate at the end of token sale, we will refund it.(For rate calculation of ETH / JPY, refer to the value of CoinGecko 
+(https://www.coingecko.com/).
+
+16
+
+Pre-sale Overview
+
+●     Presale period (Japan Time):
+
+November 15 (Wed.), 2017 12:00 ‒ November 30 (Thu.), 2017, 11:59
+
+●     Transaction currency:
+
+Ethereum（ETH）
+
+●     Distribution price:
+
+1 ETH =  1,650ACO
+
+Token Sale Overview
+
+●     Token sale period (Japan Time):
+
+December 5 (Tue.), 2017 12:00 ‒ January 15 (Mon.), 2018, 11:59
+
+●     Transaction currency:
+
+Ethereum（ETH）
+
+●     Distribution price:
+
+1ETH = 1,100ACO
+
+
+
+17
+
+The Pre-sale subscribers may purchase ACO at 2/3 (1ETH = 1650 ACO) of the price to be offered at the token 
+sale.Also from 28th October, we will conduct Premium Sale for limited investors who have passed the 
+examination prior to pre-sales for the general public.  (The Premium Sale has been finished.)
+
+Benefits to Early Buyers
+
+Pre-sale rate ETH/ACO
+
+Token sale rate ETH/ACO
+
+1,650 ACO
+
+1,100 ACO
+
+Buyers of 150ETH or more are provided with a 10% bonus, and buyers of 300ETH or more are provided with a 
+20% bonus. 
+
+Benefits to Volume Buyers
+
+less than 150 ETH
+
+Pre-sale rate ETH/ACO
+
+1,650 ACO
+
+Token sale rate ETH/ACO
+
+1,100 ACO
+
+150 ETH ～
+
+300 ETH ～
+
+1,815 ACO
+
+1,980 ACO
+
+1,210 ACO
+
+1,320 ACO
+
+
+
+Security ConsiderationsⅥ.
+
+Our technical team has previously been engaged in development requiring high-level security, including a joint 
+project with a company listed on the first section of the Tokyo Stock Exchange, and an e-Learning system and 
+an Internet filing system respectively used by several hundred thousand people.
+Although we hear daily about serious hacking damages related to ICO funding, we continue learning and 
+applying lessons from the past to provide fully assured security measures using the combined knowledge of the 
+group.
+
+18
+
+ Consent to CovenantsⅦ.
+
+Detailed covenants that all sale subscribers must consent to will be disclosed on the official website before the 
+start of the pre-sale. 
+
+
+
+チームⅧ.
+
+19
+
+Genki Shimoda
+CEO & CTO
+
+Jun Ohyama
+COO
+
+Michael Sodaro
+Engineering
+
+Af te r  work ing  as  a  se rve r  s ide  
+engineer  for  KAYAC Inc . ,  P iyon 
+founded IREMONO Inc. Later, after 
+selling web media FEELY, worked as a 
+web server and media advisor for 
+numerous businesses. His concept in 
+life is, “Do the things you like, in the 
+places you like, with the people you 
+like.” At AMPLE!, Piyon is in charge of 
+marketing.
+
+Piyon Yumiyon
+Marketing
+
+Whi le  s t i l l  i n  Un ive rs i t y ,  Ke i ta  
+participated in the establishment of 
+an educational business. At the time, 
+n e a r l y  8 0 0  m em b e r s  g a i n e d  
+experience in building platforms for 
+learning and site creation . In 2015, he 
+jo ined a  des ign office where he 
+designed the website for a major 
+educational company and also worked 
+on front end development. Afterwards, 
+he changed jobs joining Hitomedia 
+Inc .  who is  act ive ly  invo lved in  
+investing in startups. He has had a 
+hand in the design of corporate sites, 
+service sites, landing pages, the 
+UI/UX design of apps, as well as logo 
+designs. At AMPLE!, Keita is in charge 
+of design.
+
+Keita Ishibashi
+Design
+
+Tomohiro joined Accenture after 
+g raduat ing  f rom Univers i ty .  He 
+engaged in project management, 
+business planning strategy, and the 
+support of new business launches. For 
+his efforts, he obtained the highest 
+internal performance rating (SA). In 
+2016, he became fascinated with the 
+c l imate and natura l  features of  
+Miyazaki Prefecture, and moved there 
+f rom Tokyo .  Af ter  h is  move ,  he  
+established BAKEON Corp. where he 
+mainly worked as a free consultant in 
+charge of projects for national clients.  
+Tomohiro is in charge of project 
+management and engineering.
+
+Tomohiro Sawai
+Engineering
+
+While studying at Aoyama Gakuin 
+University, Genki actively to part in a 
+venture company. After only two 
+months with the company, he set the 
+company record for highest sales. 
+Genki then went on to be a part of 
+several startups before becoming an 
+engineer, and being put in charge of 
+development. He is currently involved 
+in the 0→1 technology management of 
+5 services. In September 2017, he was 
+appointed representative for AMPLE! 
+Ltd.
+
+After serving as director for a web 
+production company, Jun was put in 
+charge of new project planning and 
+service management for Enigmo Inc. 
+After  jo in ing Hitomedia Inc. ,  he 
+became involved in the launching of 
+new services, joint projects with other 
+companies, and has participated in 
+joint research with Keio University on 
+industry-academia. Jun also provides 
+to investee companies. In September 
+2016, he was appointed director of 
+AMPLE! Ltd.
+
+Born in California, Michael has been 
+involved with blockchain technology 
+for over 7 years, and has even been 
+i n v o l v e d  i n  s m a r t  c o n t r a c t  
+development projects. He is part of 
+the first graduating class of Code 
+Chrysalis, Japan’ s first Silicon Valley 
+style coding boot camp. At AMPLE!, 
+Michael is in charge of digital token 
+development.
+
+
+
+20
+
+Kohei Kobayashi
+Service Disign & Community Management
+
+Akihito Hama
+PR
+
+Kohei joined IREMONO Inc. as a 
+director. While playing with nature he 
+wo rked  t o  g r ow  web  se r v i c es .  
+A f t e r w a r d s ,  h e  j o i n e d  D e S C  
+Healthcare, Inc. were he was involved 
+in editing work for the healthcare 
+field. Currently he read manga and 
+watches anime in Tokyo. At AMPLE!, 
+Kohei is in charge of service design 
+and community management.
+
+Akihito joined Works Applications Co., 
+Ltd. as an engineer. Afterwards, he 
+engaged in IT education in Papua New 
+Guinea as a JICA volunteer. After 
+traveling around southeast and central 
+Asia, he provided web services to the 
+locals of Myanmar. While in Myanmar, 
+he launched the Myanmar branch of 
+the WCS (World Cosplay Summit) with 
+t h e  h e l p  o f  t h e  l o c a l  c o s p l a y  
+community. Akihito currently resides 
+in  Tokyo  where  he  works  fo r  a  
+company engaged in IT development. 
+There, he is engaged in business in 
+Myanmar, as well as throughout the 
+rest  of  Asia .  He is  a lso act ively  
+engaged in creating an environment in 
+which cosplayers around the world 
+can freely enjoy their activities to their 
+hearts content.
+
+
+
+AMPLE! GroupⅨ.
+
+About us
+
+21
+
+●     Name
+
+AMPLE Group.
+
+●      address
+
+B2F, 3-1-35, Moto-azabu, Minato-ku, Tokyo,
+
+●     representative
+
+Genki Shimoda
+
+●     Description of business
+
+The platform service for cosplayers
+
+Oct 2012 Website launched under the concept for a simple, stylish cosplay site
+
+History
+
+June 2013 Launch of global development
+
+April 2014 Over 40,000 image posts hosted
+
+March 2015 Provisioning of AMPLE! Points starts
+
+Oct 2015 Joint photo contest with Halloween event GLAY LiB CAFE 2015 HAPPY HALLOWEEN 
+sponsored by GLAY
+
+May 2017 Joint sponsorship of WCS Myanmar to develop cosplayers in new countries
+Over 60,000 image posts hosted
+
+Sep 2017 Announcement of funding through ICO process
+
+
+
+Revision HistoryⅩ.
+
+2017/11/06  p16 Changed the date of Pre-Sale and TokenSale (version 1.2)
+2017/11/13  p16 Deleted the maximum supply of ACO at Pre-sale (version 1.3)
+2017/11/13  p16 Deleted the minimum purchase quantity of ACO at Pre-Sale and TokenSale (version 1.3)
+2017/11/13  p17 ACO/JPY → ETH/ACO (version 1.3)
+2017/12/30  p16 fix typo (version 1.4)
+
+22
+
+

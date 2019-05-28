@@ -1,0 +1,933 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4NEW-WhitePaper
+
+
+!
+!
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+!
+!
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+DISCLAIMER
+
+~ ~ ~ 
+
+This document and any other 4NEW documents do not constitute a prospectus of any sort and are not a solicitation 
+
+for investment. The KWATT Coin does not represent an ownership or share in ANY public or private corporation, or 
+
+other entity in any jurisdiction. The KWATT Coin is a coin that can be used to purchase goods and services within the 
+
+4NEW ecosystem.  
+
+Acquisitions of KWATT Coins through the initial coin o" ering are non-refundable. KWATT Coins are only to be used 
+
+in connection with 4NEW. Any acquisition and use of KWATT Coins carries significant financial risk, including the use 
+
+of experimental software.  
+
+Except where specifically indicated, the statements and information set forth in this Whitepaper are not intended to 
+
+recite current or historical facts, and constitute forward-looking statements. Forward-looking statements may include 
+
+other 
+
+words or expressions of similar meaning. These forward-looking statements are based on the current beliefs, plans, 
+
+objectives, goals, expectations, anticipations and/or intentions of 4NEW with respect to future events. Although 
+
+4NEW believes that the expectations reflected in the forward-looking statements are reasonable, 4NEW cannot 
+
+guarantee the successful establishment or operation of its systems and business or any future results, level of 
+
+activity, performance or achievements.   
+
+Many factors discussed in this Whitepaper or otherwise a" ecting the matters discussed herein, some or all of which 
+
+may be currently unknown to will be important in determining the ability of 4NEW 
+
+to establish and operate its systems and business. Consequently, actual results may di" er materially from those that 
+
+might be anticipated from the statements and information set forth herein. In light of these and other uncertainties, the 
+
+statements and information set forth in this Whitepaper are for informational purposes only, should not be relied upon 
+
+in making any purchase or other decision, are subject to change, and are not intended to establish or indicate any 
+
+representation, warranty, commitment, undertaking, promise or contract made on the part of 4NEW to any person. 
+
+4NEW does not undertake any obligation to publicly update any forward-looking statements, whether as a result of 
+
+new information, future events or otherwise, except as required by law. ADDITIONAL RISKS HIGHLIGHTED ON 
+
+THE WEBSITE.  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+Ladies and Gentlemen,
+
+The team at 4NEW is proud to announce the world's first ever coin that embodies electricity. 
+
+Our product is grounded in necessities, solving two global & social problems; waste surplus and 
+
+energy shortfall.   
+
+Our blockchain platform will be built on top of the underlying waste treatment infrastructure 
+
+covering the entire supply chain from collection of waste to generation of electricity to 
+
+application of it within the cryptocurrency transactions processing.  
+
+Given the utilitarian nature of our services, it is our belief that 4NEW will successfully integrate 
+
+the blockchain network within the real world applications of energy consumption by the crypto 
+
+community leading to widespread mainstream adoption.  
+
+Our seasoned management team, with over 300 years of collective experience, brings a vast 
+
+and diverse perspective that has enabled 4NEW to explore rare and unique opportunities. We 
+
+are excited to present a solution such as ours that will revolutionize and standardize four 
+
+industries, Crypto-mining, blockchains, Waste Management and Energy, creating disruptive
+
+economies of scale on a global level. 
+
+ 
+
+Regards ,
+
+Sandeep Golechha
+
+Chief Executive Officer
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+PROBLEM
+
+ 
+
+Cryptocurrencies global market capitalization has surpassed $500 billion USD rising over 
+
+2000% in 2017.  This trend is expected to continue for the foreseeable future as businesses 
+
+increasingly embrace the elegant design and transparency the blockchain offers to all.  
+
+However, as of December 2017, Bitcoin mining energy intake has officially surpassed the entire 
+
+energy consumption of Denmark.  As the difficulty of mining increases to reflect the influx of 
+
+miners joining the network, this energy consumption will increase.   
+
+The most astounding aspect of this is that the rate of expansion is exponential. At the current 
+
+rate of consumption, next year Bitcoin mining will consume enough energy to be listed as the 
+
+twentieth country in the world by energy consumption. The model is simply unsustainable. The 
+
+world relies primarily on the production of energy from the burning of coal and oil, which not only 
+
+damages the environment, but the economy as a whole. If Bitcoin has a great enough impact on 
+
+ kilowatt will rise globally.   
+
+The more valuable one bitcoin becomes, the more energy will be used to mine that coin, 
+
+therefore with price spikes, come energy spikes. This will go on until energy around the world 
+
+will cost much more than it does currently, as a result of increased demand from miners 
+
+globally. 
+
+  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+KEY NETWORK STATISTICS 1
+
+KEY NETWORK STATISTICS BITCOIN ETHEREUM 
+
+nt estimated annual 
+electricity consumption* (TWh) 
+
+37.02 10.55 
+
+Annualized global mining revenues $19,107,870,821 $7,125,662,989 
+
+Annualized estimated global mining 
+costs 
+
+$1,850,968,079 $1,265,551,175 
+
+Country closest to in terms of 
+electricity Consumption 
+
+Qatar Georgia 
+
+Electricity consumed per transaction 
+(KWh) 
+
+262 33.00 
+
+Number of U.S. households that 
+could be powered in a year 
+
+3,427,719 976,506 
+
+Number of U.S. households 
+powered for 1 day by the electricity 
+consumed for a single transaction 
+
+8.85 1.12 
+
+Bitcoin's electricity consumption as 
+a percentage of the world's 
+electricity consumption 
+
+0.17% 0.05% 
+
+Annual carbon footprint 
+(kt of CO2) 
+
+18,139 - 
+
+Carbon footprint per transaction 
+(kg of CO2) 
+
+128.35 - 
+
+ 
+
+NOTE1 - Data as of December 25, 2017. Data provided by Digiconomist Energy Consumption 
+Index. https://digiconomist.net 
+
+  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+A CRYPTOCURRENCY TRANSACTION
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+4NEW SOLUTION
+
+4NEW is the world's first eco-friendly, tangible, waste to energy blockchain solution. The 
+
+concept is quite simple, the process of refining waste product into water and organic materials 
+
+creates energy and that is then leveraged to either be sold to the national grid or applied to 
+
+operate mining processes at its onsite mining farm. 
+
+The cost to produce the energy is met through the revenue generated from the waste collection 
+
+services and sale of byproducts facilitating a sustainable operation at breakeven or a marginal 
+
+profit. Therefore, the energy produced is unencumbered and freely available for utilization 
+
+orsale to the national grid. 
+
+Historically, the price of 1 kilowatt has been very stable for the past fifty years at approximately 
+
+$0.15 globally, inflation adjusted. This trend is expected to continue for the foreseeable future in 
+
+lieu of technological innovations. However, the wild card that no one has truly evaluated is the 
+
+exponential acceptance of the blockchain worldwide leading to a massive spike in energy 
+
+consumption by cryptocurrency mining that could drive the price of energy up globally. 4NEW 
+
+has the unique opportunity to apply this finite lifetime supply of energy to its coin, namely, 
+
+KWATT. The 4NEW coin symbol is KWATT2. Each KWATT Coin embodies within it, 1 kilowatt 
+
+of electricity for a year. 
+
+ 
+
+NOTE2 - KWATT Coin was formerly named FRNCoin. It is the same coin, just a different coin 
+symbol. 
+
+  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+ 
+
+4NEW is a producer of energy. Consequently, 4NEW enjoys a unique vantage point to apply its 
+
+energy at a fixed price, inflation adjusted for a significant period of time. This will enable 
+
+standardization of transaction fees within the crypto community. 
+
+This standardization of fees cannot be matched by any other blockchain as they have to 
+
+purchase their energy from retailers. 
+
+Our blockchain will enable payment system platform that can accommodate all utilization of the 
+
+KWATT Coin in varied and diverse industries. 
+
+The 4NEW decentralized, distributed ledger is where all actors in any industry will be able to 
+
+transact using the KWATT coin. The coins are smart contracts which establish a binding 
+
+relationship between transacting parties and provide a value for each transaction. 
+
+The ledger will provide an immutable and audit-able journal of all transactions related to 
+
+purchase and sale of goods and services on the blockchain. With all parties to each transaction 
+
+being able to see the same ledger entry, costs of reconciliation and potential issue of disputes 
+
+and revenue leakage are controlled to a very large extent. This will standardize three industries 
+
+of Waste, Energy and cryptocurrencies that are yearning for technological innovation. This will 
+
+also enable KWATT. 
+
+  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+ the 
+
+blockchain development, the token will be swapped to the KWATT Coin that will interact with 
+
+our blockchain. 
+
+ins (300,000,000). This is a hard cap limit 
+
+for the crowd sale offering. 
+
+ megawatts of power every hour. 
+
+Upon seasoning the plant operations, our infrastructure will be able to increase output capacity 
+
+to 40 megawatts per hour. 1 megawatt is equivalent to 1000 kilowatts. 1000 kilowatts powers 
+
+1000 households for one day. Peak or off-peak usage of the power at different times of the day 
+
+can cause this average to deviate. 
+
+t capacity of the plant is 346 million kilowatts per year. Due to 
+
+maintenance and general down time for repairs to the plant, expected annual output capacity is 
+
+estimated at 300 million kilowatts per year realistically. 
+
+ supply of 1 kilowatt of electricity within it. 
+
+ge value over 50 years. Regular 
+
+maintenance and upkeep will allow us to extend life beyond that. 
+
+ly their energy to one of two places each 
+
+year for the next 50 years. They can either sell their energy to the UK National Grid or they can 
+
+ 
+
+stable metric. Over the past 50 years, the global 
+
+average retail price is approximately $0.15 USD per kilowatt, inflation adjusted. 
+
+ver and above the three hundred 
+
+millions coins being launched in this initial coin offering. Therefore, any future growth in 4NEW 
+
+plant sites will always rely on the supply of the coins being issued in this offering. 
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+ards a reinvestment strategy to 
+
+enable future development of plants. This will ensure longevity and scalability to 4NEW over a 
+
+sustained period of time. 
+
+ 
+
+burned. For the avoidance of doubt, all 
+
+burned coins will release the supply of the energy that was embodied within the coin, allowing 
+
+that unencumbered energy to be freely sold to the UK national grid or applied towards the 
+
+cretion. 
+
+choose a desired application of 
+
+their energy the coin holder owns as represented by the total amount of KWATT Coins in their 
+
+control at the time of this election. Therefore, if the coin holders desire to sell their energy to the 
+
+UK national grid then the respective option can be selected. Alternatively, if the coin holder were 
+
+to select the mining farm then the energy will be applied to the mining farm. 
+
+Any decisions not made within the allotted time frame at the start of each year, will leave the 
+
+management the right to determine the allocation of the energy at its discretion. 
+
+xtend the ICO ending date to an uncertain 
+
+end date. 
+
+s document and any other 4NEW documents do not constitute a prospectus of any sort and 
+
+are not a solicitation for investment. The KWATT Coin does not represent an ownership or 
+
+share in ANY public or private corporation, or other entity in any jurisdiction. Acquisitions of 
+
+4NEW through the initial coin offering are non-refundable. KWATT Coins are only to be used in 
+
+connection with 4NEW goods and services within its ecosystem only. Any acquisition and use of 
+
+KWATT Coins carries significant financial risk, including the use of experimental software. 
+
+  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+ 
+
+The KWATT Coin will represent a certain hashing capacity per coin. This concept is not new; 
+
+Companies such as Giga Watt have offered similar mining items for lower costs, however, 
+
+KWATT Coin is extremely unique in scope. We do not charge energy fees for mining, the only 
+
+cost to a coin holder is the cost of the coin. This means that a coin holder will be able to mine all 
+
+cryptocurrencies for the lifetime without spending an additional penny for their energy bill. The 
+
+energy is free to us, so it is free also to the coin holders.  
+
+How does 4NEW Sustain Itself?  
+
+The concept of 4NEW relies upon the waste to energy model. In this model we are paid for the 
+
+waste that we process, and the sale of byproducts such as fertilizer, organic materials and clean 
+
+water. The start up costs to this mechanism are funded by 
+
+overhead is funded by cash flow generated from collection of waste and revenue from sale of 
+
+byproducts. Additionally, 4NEW, and the 4NEW team will retain a portion of the KWATT Coins 
+
+(and their associated mining capacity) which will provide an additional revenue stream moving 
+
+forward. 
+
+The Mining Capacity of a KWATT Coin 
+
+The most difficult part of the KWATT Coin design has been determining a model to correlate 
+
+with the increase in mining difficulty. We understand that one hash today can represent half of 
+
+its mining power a month from now. To solve this issue, we have decided to have the coin 
+
+represent a fraction of the total mining capacity of the 4NEW network rather than a fixed 
+
+mathematical rate. This concept allows 4NEW to expand their mining capacity to match a 
+
+competitive rate on the network. This rate of exponential expansion will be a predetermined 
+
+rein ining portfolio, in addition to 
+
+the profits from the other revenue streams. This model not only guarantees the longevity of free 
+
+energy, but the longevity of competitive mining practices. 
+
+ 
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+ 
+
+Portfolio Customization 
+
+Users will have the ability to decide which coins or coins they would like to put their KWATT 
+
+Coin power towards to mine. The options will consist of the top twenty minable coins, this 
+
+decision will automatically point the necessary amount of hash rate towards mining that coin, 
+
+and the yield will be transacted to the account associated with your 4NEW Wallet. 
+
+Proof-of-Work / Proof-of-Stake 
+
+In recent months, Ethereum has taken steps towards a Proof of Stake system that will be fully 
+
+implemented sometime in the following years. At 4NEW we fully support these steps and 
+
+understand that more efficient systems are necessary for the sustainability of cryptocurrency in 
+
+the long term. Yet, we also understand that Proof of Work will not likely be fully removed from 
+
+cryptocurrency within the next decade. For this reason, additional precautionary steps must be 
+
+taken to reduce the economic and environmental effects of the inefficiencies associated with 
+
+Proof-of-Work mining, and our mission is to be on the vanguard of these efforts. Even if Proof of 
+
+Work was completely removed and Bitcoin mining non-existent, the energy embodied within the 
+
+coin can still be either applied to the Proof of Stake mining operations or the national grid, given 
+
+severe energy shortfalls already prevalent within the world. 
+
+Management and KWATT Coin Holder Interests aligned 
+
+Given that the Waste to Energy plant will sustain its operations at breakeven from revenue 
+
+generated from the sale of waste collection services and byproducts, the energy produced is 
+
+free. This lifetime supply of free energy is being purchased by the coin holder in this crowdsale. 
+
+Any revenue generated from the administrative and facilitation fees the company will charge to 
+
+either sell the energy to the national grid or apply it to the crypto-mining farm on behalf of the 
+
+coin holders will allow for future growth and expansion strategy. Therefore, increasing the 
+
+overall demand for the coin. With three plants, the total output capacity rises to roughly 1 billion 
+
+kilowatts per annum. This will enable a market capitalization of the coin to rival most successful 
+
+cryptocurrencies. 
+
+  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+Please note, the utilization of the KWATT Coin referenced below is in addition to the energy 
+applications of the coin within the waste to energy and the crypto mining industry. 
+
+Our blockchain will be under development starting 2018 as per our roadmap. 4NEW has 
+received significant interest from other institutions in diverse industries to integrate the KWATT 
+Coins within their services. 
+
+Upon attaining critical mass with Business to Business adoption, KWATT is positioned to be the 
+next Bitcoin. Starting 2018, KWATT Coin holders will be able to use their coins for the following 
+services as a payment tender for respective services. Beta testing will initiate in 2018 for the 
+following businesses: 
+
+-  WTE plant. The KWATT Coin will 
+interact with the miners to enable them access to the blockchain in order to mine currencies of 
+their choosing. 
+
+- Two licensed operating global money transfer companies with a 
+collective monthly money transfer turnover of over $25 Million USD in 15 year track record. This 
+coin utility will enable KWATT to operate as a store of value allowing individuals to transfer 
+funds globally using the KWATT Coin as a vessel. 
+
+- A licensed pharmacy with over USD $24 Million in sales in the United 
+States and 18 year track record. Upon completion of beta testing in March, individuals globally 
+will be able to purchase their medications using the KWATT Coin from a fully licensed pharmacy 
+online. 
+
+- In 2018 we will initiate beta testing of the utilization of the KWATT Coin 
+as a payment system for a 1.5 billion dollar healthcare insurance company with over 8 year 
+track record. With over 90,000 members covered under their policies, anticipation is that the 
+KWATT Coin will break critical mass and enter main stream utilization. 
+
+ 
+
+4NEW Management will continue to work with operators in various industries to facilitate 
+widespread adoption and utilization of its coin through 2018. 
+
+  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+THE 4NEW ROADMAP
+
+OCTOBER 17, 2017 Pre-Sale Round 1 Launch of the KWATT Coin 
+
+NOVEMBER 14, 2017 Closing the Pre-Sale Round 1 
+
+NOVEMBER 15, 2017 4NEW Pre-Sale Round 2 
+
+DECEMBER 15, 2017 Closing of Pre-Sale Round 2 
+
+JANUARY 1, 2018 4NEW Initial Coin Offering Live 
+
+JANUARY 31, 2018 4NEW Initial Coin Offering Closing 
+
+FIRST QUARTER 2018
+
+Complete purchase of 4NEW plant sites with planning 
+permissions & regulatory licenses in place already identified: 
+1. Sheffield, UK - 30 Acres 
+2. Hertfordshire, UK - 10 Acres 
+3. NewCastle, UK - 5 Acres 
+- Initiate development of blockchain platform 
+- Initiate 4NEW Smart Meter approval process with the UK SMETS 2 
+protocols 
+- Beta Testing KWATT Coin utility with service providers 
+
+SECOND QUARTER 2018
+
+- Begin installation of Waste to Energy Plant on all three sites 
+- Complete Blockchain platform integration with 4NEW Smart Meter 
+- Market trial and testing of 4NEW Smart Meter system with 
+Blockchain integration 
+
+THIRD QUARTER 2018
+
+- Marketing efforts to build community awareness of 4NEW 
+Services 
+- Develop and initiate relationships with key aggregators with access to 
+wholesale quantity of waste 
+- Stress test or beta test blockchain platform prior to going live 
+
+FOURTH QUARTER 2018 Installation of Waste to Energy Plants complete and facilities will be operational 
+
+ 
+W W W . 4 N E W . I O  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+67
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+4NEW ALLOCATION DISTRIBUTION
+
+40
+
+40
+
+5 10
+5
+
+BlockChain Development Working Capital Marke�ng  Plant Development  Treasury Opera�ons
+
+67
+
+25
+
+8
+
+B
+
+Founders and Insiders Ins�tu�ons CrowdSale 
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+THE KWATT COIN VALUATION
+DISCOUNTED CASH FLOW ANALYSIS 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+NET PRESENT VALUE (NPV) = $6.26 
+
+Please note, the Net Present Value calculated above is simply the present value of all future 
+
+cash flow anticipated from the energy produced over the lifetime of the plant on a per kilowatt 
+
+basis. This is not a representation of the value of utility coin. External influences may cause the 
+
+coin to be priced higher or lower than these projections. Valuation analysis is not a guarantee of 
+
+any returns or results. Also, FX conversion rates could cause the value of cash flow assumption 
+
+to change with changes in the market. 
+
+ASSUMPTIONS: 
+
+DISCOUNT (INFLATION) RATE: 2% 
+
+EXPECTED ANNUAL CASH FLOW: $0.20 
+
+NUMBER OF PAYMENTS: 50 
+
+-C0 = Initial Investment 
+
+C = Cash Flow 
+
+r = Discount Rate 
+
+T = Time 
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+THE KWATT COIN PRICING
+ 
+
+Each KWATT Coin is equal to 1kW of electricity. 
+
+Global average retail price per kW of electricity is $0.15. 
+
+Global average wholesale price per kW of electricity is $0.05. 
+
+4NEW mining operation will pay $0.20 per kW. Therefore, each coin represents an intrinsic 
+
+value of $0.20 per 1 kW of electricity. 
+
+All energy generated by the plant will be owned by the KWATT Coin holders. 
+
+KWATT Coin holder can either sell this power to the UK nati
+
+mining farm. 
+
+Net revenues, after administrative and facilitation fees, generated from the sale of the energy to 
+
+the crypto mining farm will be distributed to the coin holder annually in cryptocurrencies. 
+
+Net revenues, after administrative and facilitation fees, generated from the sale of the energy to 
+
+the UK national grid will be retained for future plant build out leading to additional KWATT Coins 
+
+being delivered to the coin holder. 
+
+Revenue distribution will initiate 24 months after the completion of the Initial Coin Offering. The 
+
+first 12 months will be plant buildout period and the second 12 months will be reserve build up 
+
+period. Distribution will be annually thereafter. 
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+MINING CASE STUDY3
+
+BITMAIN CASE STUDY 
+
+The energy efficiency of Bitcoin mining is significantly worse than initially anticipated, and the 
+associated carbon footprint is worrisome. One test case of cryptocurrency mining is Bitmain. 
+
+n buildings onsite that contain 
+21,000 ASIC Bitcoin rigs, and one building contains 4,000 Litecoin rigs all producing around 
+$200,000 profit daily after paying for 40MW of five cents per kilowatt-hour coal-powered 
+electricity at around $40,000, and 50 salaried employees. 
+
+One of the biggest liabilities of such a large mining operation is heat. As the temperature outside 
+rises, the 5,000 BTU per hour producing mine begins to malfunction at a much higher frequency 
+than typical. To counteract this heat, the hot air is pumped from the facility and the machines 
+themselves are cooled with evaporative coolers. These systems collectively consume 
+
+about one fifth of the to total power consumption of the mining facility. 
+
+The total footprint of the mine is estimated to be around 24-40 tons of CO2 per hour. Assuming 
+an identical energy efficiency, which is quite generous, this mean the total energy consumption 
+of the Bitcoin network processes about 200 tons of CO2 per hour. However, this footprint could 
+be significantly reduced if the source of energy is substituted for a greener method. 
+
+This mining farm commands approximately 5% of the global bitcoin mining market share. 
+
+ which happens to be the output 
+capacity of the 4NEW plant. Therefore, it would be reasonable to envision our operation similar 
+
+ 
+
+NOTE3 - Case Study conducted by Digiconomist. https://digiconomist.net  
+
+
+
+P O W E R  T O  T H E  P E O P L E ,  L I T E R A L L Y .  
+
+ 
+W W W . 4 N E W . I O  
+
+COMPLIANCE
+
+ACCOUNTING 
+
+at Zucker Forensics P.A. Zucker 
+
+Forensics is a credentialed forensic accounting firm with accredited US Certified Public 
+
+Accountants. With over 35 years of forensic accounting experience in identifying fraudulent 
+
+accounting practices, the management at 4NEW deemed it necessary to retain such a capable 
+
+team to manage its books and records. 
+
+INDEPENDENT AUDITOR 
+
+nded over 26 years ago, Daszkal 
+
+Bolton maintains an illustrious track record of thorough audits of high growth companies in every 
+
+sector. In an effort to abide by the highest ethical standards, 4NEW Management will submit to 
+
+ 
+
+

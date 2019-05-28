@@ -1,0 +1,1216 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0chain Whitepaper V2.0 (PDF)
+
+
+ 1
+
+0C̷hain: A Fast, Secure, Scalable, 
+& Free Blockchain
+Tailored For High-Performance, Zero-Trust, Decentralized Storage
+
+Whitepaper V2.0 Last Updated Mar. 20, 2019 Subject To Further Review & Update
+
+Saswata Basu, Thomas Austin, Siva Dirisala, & 0̷Chain Team
+
+
+
+ 2
+
+Table Of Contents 
+
+Introduction
+
+MOTIVATION
+
+EXECUTIVE SUMMARY
+
+1. AN INTRODUCTION TO 0̷CHAIN
+
+2. PRODUCTS
+
+2.1 0̷CHAINNET 
+
+2.2 0̷BOX 
+
+2.3 0̷WALLET 
+
+3. 0̷CHAIN ARCHITECTURE
+
+3.1 CONSENSUS PROTOCOL
+
+    3.2 STORAGE PROTOCOL 
+
+    3.3 SPLIT KEY PROTOCOL 
+
+    3.4 TOKEN REWARD PROTOCOL 
+
+    3.5 GOVERNANCE PROTOCOL 
+
+    3.6 OTHER PROTOCOLS 
+
+4. APPENDICES
+
+APPENDIX 1: TEAM
+APPENDIX 2: UNDERSTANDING 0̷CHAIN FINALITY 
+
+APPENDIX 3: CONSENSUS PROTOCOL  
+APPENDIX 4: STORAGE & TOKEN REWARD PROTOCOL 
+APPENDIX 5: SPLIT KEY PROTOCOL
+
+3
+4
+9
+13
+
+23
+24
+25
+26
+26
+27
+27
+
+29
+30
+36
+38
+40
+
+14
+18
+22
+
+
+
+ 3
+
+Motivation 
+When we started developing 0̷Chain in July 2017, we were driven by the idea of redefining the cloud 
+
+in the context of privacy, transparency, and user control of data. In 2018, as we dove deeper into our 
+
+development process, we identified a number of critical unresolved issues in the cryptocurrency 
+
+space, such as: token security, token valuation metrics, governance, and token inflation. To address 
+
+the aforementioned issues, we chose to conduct additional research and development. Today, we 
+
+are not just redefining the cloud, but the blockchain and cryptocurrency landscape through our novel 
+
+protocols. 
+
+Whitepaper
+
+
+
+ 4
+
+Executive Summary 
+
+Executive Summary
+
+Several roadblocks exist in today’s crypto market, as well as the underlying Distributed Ledger Technologies 
+(DLT) that power them — hindering the maturation process of the blockchain industry. Some are regulatory 
+and security concerns, some involve technical performance, while other issues are related to token 
+economics, valuation metrics, and governance.  
+
+1. SECURITY
+
+Regulators identify a few key shortcomings with regards to the security of crypto assets: poor wallet infrastructure, exchange 
+
+transparency, and unreliable custody of assets. 0̷Chain is addressing all of these issues. 
+
+Today, hardware wallets are clunky and extremely hard to use for an average person, especially for daily utility. Software wallets 
+
+are notoriously prone to hacking, unless you can memorize your private key. Our software-based secure wallet is the world’s first 
+
+to enable a 2-device authentication; it makes transactions simple and yet highly secure with just a mobile device and a laptop.
+
+2. SPEED AND SCALABILITY
+
+The finality for Bitcoin is about 1 hour; Ethereum is about 3-10 minutes — something that is still too slow for a micropayment 
+
+transaction and verification. We aim to address this problem. 0̷ChainNet is a high speed blockchain with block finality achieved 
+
+within . 5 to 1.5 seconds (depending on network latency), highly scalable with throughput rates of over 1,000 transactions per 
+
+second, and energy efficient by way of our unique Proof of Stake protocol. We have proven these results on a public test 
+
+network of 10 worldwide data centers and have completed over 6 billion transactions to verify reliability. 
+
+3. ARCHITECTURE
+
+An Ethereum node mines a block, stores the block, and stores associated unstructured data, all on the same node. This same 
+
+node handles transactions and queries from the same client. This architecture makes the node very expensive, slow and unscalable. 
+
+0̷Chain architecture allows for separation of duties to specific designated nodes, called miners, sharders, and blobbers. Miners 
+
+receive transactions from users and they generate blocks via the consensus protocol, Sharders store these blocks and respond 
+
+to queries on transactions and blocks, and Blobbers store unstructured data. This architecture allows for off-the-shelf cheap 
+
+hardware (making it inexpensive to support the network as a node), faster response rates, and better scalability.
+
+
+
+ 5Executive Summary
+
+4. ZCN TOKEN
+
+The value of ZCN is mathematically related to the data stored and other services on the network, unlike other cryptocurrency.
+
+4.1 Addressing Cost, Value, And Volatility 
+
+Expensive transaction fees and the volatility of native blockchain cryptocurrencies is an unresolved problem for today’s 
+
+public blockchain networks. To address this pain point, 0̷Chain’s native cryptocurrency (ZCN) is uniquely programmed as 
+
+an asset-backed token. 
+
+When a user locks their ZCN, these tokens collect an “interest” which can be used toward payment of transactions or data 
+
+services. Through this interest-bearing feature, the transaction fee is absorbed by the interest generated on the locked 
+
+tokens. Additionally, 0̷ChainNet’s core service — data storage — is also enabled by locked tokens. Upon locking, a storage 
+
+service can be activated and the extent of service is determined by the number of tokens locked by the user (for more 
+
+details refer to section 3.2). In both of these services, the initial locked tokens are fully redeemable upon unlocking, thus 
+
+facilitating free services on the network. It’s free because the network mints these tokens and is part of the inflation and 
+
+underlying token economics.
+
+Storage and transaction services have a quantifiable, real world market value. Conversely, it’s frequently argued that other 
+
+popular native blockchain cryptocurrencies (such as BTC, ETH, etc.) in their current state lack such an economic value 
+
+beyond raw speculation. This creates a challenging process for accurate price discovery of cryptocurrencies, resulting in 
+
+price volatility. 
+
+0̷Chain has programmed value economics into the ZCN token to curb price volatility. The lower bound value of the ZCN 
+
+token can be mathematically estimated based on the number of tokens locked relative to the demand or usage of data 
+
+storage and transaction services (for more details refer to section 3.4). 
+
+In other words, ZCN is backed by an allocation of transaction and data storage services, thus injecting a non-speculative, 
+
+integral value into the ZCN token. The asset-backed nature of ZCN can buttress its market value and reduce its price 
+
+volatility unlike other popular native cryptocurrencies. 
+
+
+
+ 6Executive Summary
+
+4.2 Token Supply
+
+The ZCN token supply (at genesis block) can be broken down as follows: 
+
+A) Public Sale: 40m sold to the public in the private and pre-sale rounds.
+
+B) Team & Advisors: 100m allocated to team & advisors.
+
+C) Seed & Community: 20m allocated to seed & community (eg bounties)
+
+D) Future Reserves: 40m reserved for future use if the per unit token price of ZCN exceeds $10. This reserve unlocks in
+
+two 20m tranches in Jan 2020 and Jan 2022 if the $10/ZCN threshold is met.
+
+
+
+ 7Executive Summary
+
+4.2.1 Token Supply Schedule
+
+The current inflation rate of ZCN will run at 10% per year of the outstanding token supply. The 120m tokens from 
+
+quadrants “B) Team & Advisors” & “C) Seed & Community” are vested linearly over a 4 year period beginning in 
+
+January 2018. To summarize, at the end of 2019 there will be 70m ZCN outstanding, 100m in 2020, 130m in 2021, 
+
+160m in 2022, etc. The 40m ZCN from quadrant “D) Future Reserves” will fully vest after four years (if, and only if, 
+
+price exceeds $10/ZCN).
+
+The chart below depicts the aforementioned schedule:
+
+
+
+ 8Executive Summary
+
+5. GOVERNANCE
+
+Upgrades in the context of a protocol are not just unavoidable, but critical. The mechanisms being used by public blockchains to 
+
+initiate protocol upgrades leave a lot to be desired. Today, changes are slow, and occasionally result in a contested fork; which 
+
+can have dire implications, as evidenced by the divisive chain splits seen on the Ethereum and Bitcoin networks. 0̷Chain 
+
+governance enables a fast but fair approach to all issues, ranging from configurable changes to major code upgrades.
+
+6. ENTERPRISE MARKET
+
+Today’s blockchain solutions for the enterprise market are disjointed. While HyperLedger, Corda, and Ethereum platforms 
+
+provide a barebones blockchain (or block-less in the case of Corda), they do not solve issues regarding governance, profit 
+
+sharing, addition/removal of consortium members, and verifiable storage of data. Most of the latter issues need to be 
+
+developed, verified, and agreed upon by all parties so that they can trust the blockchain system. Thus, it is not simple for 
+
+enterprises to transition to a blockchain system and roll-out new products on it. 
+
+In addition, the notion of a private blockchain in a datacenter under the control of a central party (or developed by such) always 
+
+has the nagging complaint of being a glorified version of a traditional centralized system. And so, it is likely that a centralized 
+
+blockchain system is a good transition market for enterprise products before they move to the public chain in the future. 0̷Chain 
+
+provides a suite of protocols that addresses all of these issues, and so enterprise private chains can use 0̷Chain to abstract out 
+
+the infrastructure and protocols, in order to develop and market new applications at a faster pace.
+
+
+
+ 9
+
+Section 1 
+An Introduction To 0̷Chain
+
+Introduction
+
+Secure Wallet Storage App Fast Blockchain Infrastructure
+
+0̷Box0̷Wallet 0̷ChainNet
+
+
+
+ 10
+
+0̷Chain aims to introduce new products and services based on 0̷ChainNet,
+
+as it conducts ongoing research, development, and code releases for 
+
+0̷ChainNet.
+
+0C̷hainNet is a fast, secure, public enterprise-grade blockchain powered by 
+
+an innovative and original consensus protocol. It enables decentralized 
+
+applications such as 0̷Box to abstract infrastructure and zero-trust protocols
+
+and build a fiat application on 0̷Chain. 0̷ChainNet is secured by a native
+
+cryptocurrency (ZCN), which enables a fast, secure, and free way to store 
+
+and transfer value.  
+
+0̷Chain Consensus - Finality Process
+
+Introduction
+
+
+
+ 11
+
+0B̷ox is the first product 0̷Chain will unveil on 0̷ChainNet. Similar to how a
+
+browser facilitated wide adoption of Internet protocols, the intention of 0B̷ox 
+
+is to facilitate wide adoption of public blockchain protocols. 0B̷ox is a 
+
+platform to protect data privacy and provide transparent content 
+
+monetization for both the consumer and the enterprise. 
+
+Introduction
+
+0B̷ox: transparent, zero-trust dStorage for your data.
+
+
+
+ 12Introduction
+
+Split-Key Wallet: the convenience of a software wallet; the security of a hardware wallet.
+
+The Split-Key Wallet is 0̷Chain’s breakthrough innovation for crypto wallets
+
+and passwordless login security. No more software wallet hacks. More 
+
+secure than traditional 2FA, and more convenient than a hardware wallet. All 
+
+you need are 2 devices and your PIN to send a transaction. 
+
+
+
+ 13
+
+Section 2 
+Products
+
+Products
+
+
+
+ 14Products
+
+0̷ChainNet is designed to serve both the crypto and enterprise industries, with the ability for 
+enterprises and blockchains to leverage 0̷Box for their decentralized storage requirement. Both 
+industries have the ability to integrate with 0̷Box and use the 0̷ChainNet infrastructure as a high- 
+performance zero-trust cloud service. 
+
+2. Products
+
+2.1.1.     MULTI-SIG WALLET FOR THE CORPORATE ENVIRONMENT
+
+The 0̷Chain platform has a built in multi-sig wallet, and unlike other implementations, is cryptographically secure to enable m-
+
+of-n keys to execute a smart contract. Exchanges and corporations can use it to dispense funds based on several signatures, 
+
+instead of one signature. It creates protection from multiple bad actors, and hacks on multiple servers. By having the multi-
+
+signature feature built into the platform, any smart contract can use this feature for a highly secure execution of value transfer.
+
+2.1 0̷ChainNet
+
+
+
+ 15
+
+2.1.2.  SPEED 
+
+The speed of a transaction is ultimately determined by when that transaction is fully processed and confirmed, also known as finality. 
+
+These are the definitions of finality:
+
+1) Steady-state block finality is based on the rate at which a finalized block is created every block generation round, and can
+
+be directly correlated with transactions per second. So, if the block size averages 1000 transactions, and steady-state finality is 
+
+a second, then the transactions per second (TPS) is 1000. 
+
+2) End-to-end block finality is defined as the time taken from the generation of a block to the finalization of that block; this
+
+timeframe is typically about two to three times that of steady-state finality. 
+
+3) Transaction finality is based on the time the transaction is sent by the user, to the miner, to the time a block with that
+
+transaction is finalized. Transaction finality is typically longer than block finality by about a 1.5 to 2 times multiple, because the 
+
+transaction depends on the internet speed quality of the end user. Even if the connection is perfect, the transaction submitted 
+
+could miss the block generation event. In our experiments, which included 130 world-wide nodes (100 miners, 30 sharders) with 
+
+an average network latency of 700 ms, the steady-state finality was roughly ~1.2s, block finality was ~4.6s, and transaction 
+
+finality was ~5.4s. 
+
+4) Deterministic finality is when you have 100% certainty that there will be no rollbacks. This lags all finality by a multiple that
+
+will be discussed in a blog in the future.
+
+In another context, a 0̷Chain self-fork could have a distribution of nodes strictly within the U.S., and then the network latency would 
+
+be about 200ms. Additionally, if the transactions are less than 100 per block, the steady-state finality would clock in at 300ms, with 
+
+block finality at 900ms, and transaction finality at about 1s. With such speed, a decentralized exchange would be extremely fast, 
+
+rivaling today’s centralized exchanges and solving the problem of token custody & transparency. 
+
+2.1.3.     SCALABILITY 
+
+It’s expected for every chain on 0̷ChainNet to accommodate at least 1,000 transactions per second without a hitch. As the number of 
+
+cores, memory, SSD, and IO capability increase, scaling as high as 100,000 transactions per second is possible; but this will incur 
+
+high costs, and is unnecessary for any app today, including VISA. A more economical solution is scaling vertically, through additional 
+
+chains based on demand. The best way to scale is to have a self-forking feature, whereby a forked chain can be formed with all 
+
+associated protocols, features, and abstracted infrastructure in a trustless fashion. 
+
+Products
+
+
+
+ 16Products
+
+2.1.4.    COMPETITION
+
+Several public blockchain solutions exist on the market today (e.g., Ethereum, Dfinity, EOS, Tezos, Tron, etc.), as well as 
+
+private ones (e.g., HyperLedger and Corda), all with their own advantages. 0 ̷Chain is carving out its own identity as the first 
+
+enterprise-grade dStorage blockchain platform with unparalleled transaction speeds, scalability and an integrated asset-backed 
+
+token economy, that can integrate with existing blockchain solutions.
+
+2.1.5.     GO-TO-MARKET STRATEGY
+
+Building a robust community and a strong developer environment is not a simple task. One of the core strategies is to have a 
+
+constant supply of bounty and competition-issued tokens to promote growth of the network. 0 ̷Chain expects to be a participant 
+
+in mining, and some of the accumulated interest proceeds will go toward such marketing efforts. The following strategies will be 
+
+considered to educate the market: 
+
+• Bounty-issued locked and unlocked tokens for transaction and storage, based on shared link referral.
+• Bounty-issued locked and unlocked referral tokens; referrals verified by the team or smart contract code.
+• Bounty-issued locked and unlocked tokens for bug fixes on our governance protocol.
+• A dApp “Starter Package” of locked and unlocked tokens, rewarding early applications built on the 0̷ChainNet
+
+platform. 
+
+• Token incentives for researchers at Universities to conduct research on our protocols. Winner selected using the
+0̷ChainNet governance protocol. 
+
+• App competition. Winner package including locked and unlocked tokens, selected via the governance protocol.
+
+As 0̷Chain LLC raises additional capital, we expect to spend a large portion on marketing efforts in the following areas: 
+
+• University initiatives
+• Meetup groups
+• Accelerator engagements
+• 0̷Chain Conferences
+• Hackathons
+
+
+
+ 17
+
+2.1.7.  PARTNERS 
+
+As a small team, 0̷Chain must be selective with our partners. We are working closely with the following impactful opportunities: 
+
+2.1.7.1.     PollGateWay – eVoting/eOpinion platform 
+
+A startup in India addressing their customers’ issue of transparent, authentic, and anonymous voting processes via 
+
+the blockchain. However, most notably, the core issue being solved is efficiency: long lines, hours of waiting, retries, 
+
+recounts, and setting up booths are all inconveniences solved by a more efficient voting process. 
+
+2.1.7.2.     MyntCoinz – White labeled loyalty platform 
+
+A U.S. startup offering a BaaS (Blockchain as a Service) platform for the “loyalty rewards” space. MyntCoinz offers 
+
+a unique solution to transform various customer engagement issues, such as a lack of flexibility and liquidity in the 
+
+loyalty market. 
+
+2.1.7.3.     Department of Homeland Security (DHS) – Identity fraud prevention platform 
+
+DHS seeks technical solutions that can serve the needs of U.S. Customs and Border Protection (CBP), U.S. 
+
+Citizenship and Immigration Services (USCIS), and Transportation Security Administration (TSA). DHS is interested 
+
+in using blockchain to address the challenges of interoperable digital entitlement attestations that support individual 
+
+control and accountability of data release, while incorporating digital counter-fraud technologies and tactics, 
+
+enterprise lifecycle management, and a high degree of usability across service delivery modalities. 
+
+2.1.7.4     AWS – Infrastructure and BaaS partner 
+
+We have been working with AWS for over 6 months and have been granted $100k of cloud resources, which has 
+
+been valuable in rolling out our Blockchain as a Service platform. We also passed their technical requirement for 
+
+disaster recovery and cloud service processes to get accepted in their Advanced Solution program. Moving forward, 
+
+we'll work with their sales team on opportunities. 
+
+2.1.7.5     Oracle – Infrastructure and BaaS partner 
+
+We are a partner in Oracle’s standard program, and plan to bring our BaaS to their customers. One of their 
+
+requirements to do so is to have a platform up on their datacenter. Given our limited resources, we have decided to 
+
+wait until the AWS opportunity and 0̷ChainNet are both live in the marketplace — something we expect for Q2 2019. 
+
+Products
+
+
+
+ 18Products
+
+2.2.  0B̷OX 
+
+The second product that we’re developing in parallel is 0̷Box, a data privacy and transparent decentralized storage (dStorage) 
+
+platform. 0̷Box will be used to accomplish two core objectives: 
+
+1. Showcase a native dApp that runs on 0̷ChainNet as a model for other dApps.
+
+2. Facilitate use of decentralized storage on 0̷ChainNet to “seed” adoption of blockchain.
+
+2.2.1.     HOW IT WORKS
+
+Users lock tokens or directly allocate required tokens for a specific storage allocation (e.g. 1TB). The allocation is created one 
+
+time when the miner randomly chooses the least expensive blobbers. The list of blobbers are on the blockchain, since each 
+
+service provider of 0̷Chain needs to register with the network. If the blobbers offer the same price, then they are randomly 
+
+picked. The client collects all signed contracts from the blobbers and sends a transaction with the list to the blockchain. Then it 
+
+starts uploading files to the blobbers. Once the file is committed, people can read from the blobbers. The health (reliability, 
+
+availability) of the file is checked on a regular basis through challenges, and if anything is amiss, then the repair protocol takes 
+
+care of it in the background. 
+
+Users can upload as many files as they wish. Files can be private or public and can be shared via links on any platform. When 
+
+a user clicks on the link, it invokes the 0̷Chain mobile or desktop app to download the file.
+
+
+
+ 19Products
+
+2.2.  0B̷OX (cont’d) 
+
+Regarding competition, we do not directly compete with DropBox, Box, or other data sync solutions, since our target market are 
+
+users that value data privacy and transparency — for which a practical solution does not exist. These consumers care about 
+
+their personal data, especially their images, posts, and videos. 0̷Box enables them to protect their images and videos by 
+
+placing them on 0̷Box, and pasting a link on their social wall for their friends to download and view those images and videos. 
+
+Users will be able to monitor a file’s downloads on the blockchain, and be assured of their privacy.
+
+Consumer content platforms such as YouTube, Spotify, Apple, and Pandora do not address small artists. New rules alienate 
+
+small publishers. 0̷Box can accommodate both of the following types of content creators: 
+
+1) A well-known publisher, with a large social media following (1m followers or more)
+
+2) A small publisher, with a small social media following (1k followers or less)
+
+The small publisher can host content on YouTube and share the video for free, or host it on 0̷Box (for free via locked tokens) 
+
+and charge a nominal fee to view their content. In the latter case, the user generates some revenue instead of none. If the well- 
+
+known artist has a million followers, they can share the 0̷Box link and price it lower than they expect to get from ad clicks. The 
+
+artist then promotes the content on social networks for people to watch it. The average cost per thousand impressions (CPM) 
+
+for YouTube is $9.68 and $3.21 for CPC (2018). A video with 1000 views would earn them 9.68. If the artist sells the video for 
+
+$0.25c to their fans, then only 40 out of 1000 followers need to download it to achieve the same result, but the artist gets to 
+
+keep all of the revenue. For a user's perspective, they can get access to the content, free of ads, with their interest tokens, and 
+
+still directly support the artist. 0̷Box provides a win-win solution for content creators and consumers. The monetization feature 
+
+of 0̷Box will be offered later in the roadmap.
+
+https://www.inc.com/minda-zetlin/even-youtube-stars-with-14-million-monthly-viewers-earn-less-than-17000-a-year-research-shows.html
+https://techcrunch.com/2018/01/16/youtube-tightens-rukles/
+
+
+ 20Products
+
+2.2.  0B̷OX (cont’d) 
+
+For bloggers and other content creators, they can utilize 0̷Box share links for monetized content, and get paid via a share link. 
+
+They can simply write a teaser article on Medium, Twitter, Facebook, or brand name journal publication, and have people 
+
+download the full content via the share link. 
+
+2.2.2.  COMPETITION 
+
+While several providers of storage and data sync solutions exist in today's market, 0̷Box is addressing an unserved need for 
+
+data privacy, security, and a transparent dStorage.
+
+2.2.3.  GO-TO-MARKET STRATEGY 
+
+Similar to the 0̷ChainNet strategy, the 0̷Box viral marketing strategy for building out a strong network will be accomplished 
+
+through a combination of the following: 
+
+• Bounty-issued (locked and unlocked) ZCN tokens for creative artists.
+
+• Bounty-issued (locked and unlocked) ZCN tokens for 0̷Box based on referrals.
+
+• Reward-issued (locked and unlocked) ZCN tokens for content competitions  (eg, “best creative content” contest, with
+winner determined via the 0̷Chain  governance protocol) 
+
+• Bounty-issued (locked and unlocked) ZCN tokens based on most downloaded  content.
+
+
+
+ 21Products
+
+2.2.2.  GO-TO-MARKET STRATEGY (CONT’D) 
+
+We also expect to allocate substantial funding towards marketing efforts in the following areas: 
+
+• Specific Content groups (art, graphics, music, video, clips, gifs, blogs, reports)
+
+• Privacy meetup groups
+
+• Accelerator engagements using API using 0̷Box
+
+• 0̷Chain Conferences
+
+2.2.3.  TELECOM CHANNEL PARTNERS 
+
+We are working with three telecom operators to leverage our 0̷Box solution to provide a better cloud service for their customers, 
+
+and increase their top line with higher data rates. Our proposal is a freemium data model for bandwidth related to cloud usage. 
+
+In doing so, subscriber acquisition cost reduces substantially, increasing their top line over time with specific data plan 
+
+introductions built around 0̷Box. 
+
+2.2.4.  CYBERSECURITY CHANNEL PARTNERS 
+
+We are selectively pursuing customers and partners that can most effectively leverage 0̷Box to address the issues of data 
+
+privacy and data breach, particularly within the healthcare sector. With 0̷Box’s hassle-free integration platform for existing 
+
+websites, internet processes, and healthcare companies, a 0̷Box solution is practical for both the consumer and enterprise.
+
+
+
+ 22Products
+
+2.3.  0W̷ALLET
+
+Our 0̷Wallet product allows for secure value transfer without the need for hardware wallet technology. A 0̷Wallet user can keep 
+
+their secret phrase in a safe place, and use it to generate “split-keys”, which are factor authenticators via a device of the user’s 
+
+choosing, such as a laptop and a mobile phone. Since the pin code is used on the second device, even if one of the devices or 
+
+both devices are compromised, the user needs the pin code to send a transaction. There is no need to remember back-up 
+
+codes for traditional 2FA, nor a need for hardware wallets. 
+
+Split-key wallet technology can be used for different use cases like password-less logins for websites and applications. It can 
+
+be also be used with hardware devices such as RSA type keys used in banks. Additional use cases are keyless entry for cars 
+
+and buildings. 
+
+For more details, reference Appendix 5 in the Appendices section.
+
+
+
+ 23
+
+Section 3 
+0̷Chain Architecture
+
+Architecture
+
+
+
+ 240̷Chain Architecture
+
+The value of 0̷ChainNet is tied to the protocol design and implementation. We believe we have an 
+unrivaled, innovative design not seen in today’s Distributed Ledger Technology (DLT) space, especially 
+with regards to network security and asset-based service solutions. Many of these protocols have been 
+rigorously tested and demonstrated on private and public test networks. 
+
+3. 0̷Chain Architecture
+
+3.1.  CONSENSUS PROTOCOL 
+
+0̷ChainNet offers a fast, secure, and scalable blockchain through a proof-of-stake consensus protocol that extends existing 
+
+work of Dfinity protocol in several ways. The 0̷Chain protocol assigns various parties in the system with specialized roles: 
+
+0̷Chain has multiple generators produce blocks to prevent DDoS attacks, generate random numbers, and verify blocks; 
+
+sharders store the blockchain history and respond to queries about that history; and blobbers store data needed for dApps. 
+
+This design allows for more specialized machines to be used for each of these roles. Otherwise queries will bog down miners, 
+
+and storing large data files will slow down miners, if they were to do all the tasks. 0̷Chain also introduces a squared staking 
+
+approach for Sybil resistance, by which miners and sharders are probabilistically chosen based on the square of the number of 
+
+tokens they have staked; this design incentivizes miners and sharders to stake their coins in a single account, and thus risk 
+
+greater penalties should they fail to perform their duty.
+
+Finally, the 0̷Chain consensus protocol makes very mild assumptions about the network latency to allow for faster confirmation 
+
+time, because nodes do not need to wait a fixed time in order to progress, but can instead progress shortly after they receive 
+
+their expected messages.
+
+0C̷hain’s Block Generation Process
+
+
+
+ 250̷Chain Architecture
+
+3.2.  STORAGE PROTOCOL 1 
+
+A key distinction of our data storage system from other blockchain storage solutions is that we divorce the role of mining from 
+
+that of providing storage. Computers that provide storage are referred to as blobbers. Blobbers are neither responsible nor 
+
+required for mining. In this manner, we lighten the load on our mining network and enable fast transactions on a lightweight 
+
+blockchain. As the client and blobber interact, the client generates special signed receipts called markers. These markers act 
+
+like checks that the blobber can later cash in with the blockchain. 
+
+Once the interaction between client and blobber has concluded, the blobber writes an additional transaction to the blockchain, 
+
+which redeems the markers for 0̷Chain tokens and commits the blobber to a Merkle root matching the data stored. The leaves 
+
+of the Merkle tree must match markers sent from the client, preventing either the client or the blobber from defrauding each 
+
+other. 
+
+After a file has been stored, a challenge protocol ensures both that the blobber continues to store the file and continues to be 
+
+paid for that work. The mining network posts a transaction, challenging the blobber to prove that it still possesses the data that 
+
+it was paid to store. The blobber must provide that data, the relevant system metadata, and the client-signed marker to prove 
+
+that the right data is stored. The blobber is then rewarded or punished accordingly. 
+
+With our design, the majority of the work between clients and blobbers happens off-chain. The mining network is only involved 
+
+enough to ensure that clients pay blobbers for their work and that the blobbers are doing the work that they have been paid to 
+
+do. Our design assumes that the client is using erasure codes to ensure greater resiliency. While this is not a strict requirement, 
+
+it does enable a client to recover if a blobber proves to be unreliable. 
+
+1 Will be presented and published at IEEE Dappcon in Apri 2018.  Early publication at https://0̷Chain.net/research 
+
+
+
+ 260̷Chain Architecture
+
+3.3.  SPLIT-KEY WALLET PROTOCOL 2 
+
+The split-key wallet protocol uses a BLS signature scheme to split keys and let users interact using crypto keys via a 
+
+blockchain. Since the cryptocurrency balance is maintained against these keys, it’s very important to protect the private key. 
+
+The private key is split into two secondary keys, storing each of the secondary key on a different device. Signing requires 
+
+individual signatures from each device. Hence, losing any one device can still protect the primary key. In addition, if desired, 
+
+one of the secondary keys can be further split into two parts; only one of which is stored on the device and the other is a simple 
+
+PIN that the user has to enter each time. This provides an extra layer of protection in case both devices are compromised. The 
+
+split-key wallet protocol makes it easy to generate as many split keys as desired providing the ability for the user to periodically 
+
+rotate the split keys and in the process change the PIN.
+
+2 Will be presented and published at IEEE Dappcon in Apri 2018.  Early publication at https://0̷Chain.net/research 
+3 Will be presented and published at IEEE Dappcon in Apri 2018.  Early publication at https://0̷Chain.net/research
+
+3.4.  TOKEN REWARD PROTOCOL 3 
+
+When clients lock tokens, they are rewarded with an “interest”. The interest is newly generated ZCN tokens, intended (but not 
+
+required) for payment of services on the network. These services can be miner compensation for transaction processing, 
+
+blobber compensation for storage, or transmitted to any other client in exchange for a service; facilitating a lucrative market for 
+
+building and running distributed applications. In the event of network congestion, a client may also offer to lock a greater 
+
+amount of tokens to ensure that their transaction is accepted by the mining network. The token reward protocol creates an 
+
+economy where ZCN tokens can be used to receive services for “free” — meaning, the client does not lose their initial stake, 
+
+but still adequately compensates the service provider.
+
+
+
+ 270̷Chain Architecture
+
+3.5.  GOVERNANCE PROTOCOL 
+
+Our governance protocol enables simple implementation of a variety of lightweight, non-controversial changes, while still 
+
+supporting more extensive and potentially controversial changes. Our protocol provides this flexibility by supporting different 
+
+thresholds for different types of changes, which we divide into configuration changes, moderation, and feature requests. We 
+
+expect that moderation will be relatively non-controversial, that feature requests are likely to be highly controversial, and that 
+
+configuration changes might be either. 
+
+Our design builds on our token-locking reward model. Essentially, clients who own 0̷Chain tokens may temporarily lock tokens 
+
+to produce token rewards for service providers. In our voting protocol, these token rewards are treated as votes; by locking 
+
+more tokens, clients may dedicate more votes to a proposal that they favor. Similarly, they may allocate token rewards against 
+
+any proposals that they oppose. A critical aspect of our design is that our voting mechanism can measure both whether a 
+
+proposal has broad community support and the degree of support or opposition from different parties for a specific proposal. 
+
+One concern in voting protocols is that a wealthy supporter of a proposal could sweep in during the last moment of voting to 
+
+pass or defeat a measure before other members of the community can react. This is a particular concern for our protocol, since 
+
+clients have an economic cost associated with voting for a proposal. Our design addresses this issue by having multiple rounds 
+
+of voting. If a proposal passes, it is followed by a review period where the community may veto the proposal. If a proposal is 
+
+vetoed, the community may vote to override the veto. The override itself may be vetoed, which may also be overridden, and so 
+
+on. Eventually, one side or the other will exceed a threshold that the other side cannot match, and the issue will be settled. To 
+
+minimize the back and forth votes, the vetoing/overriding faction must exceed the threshold by a fixed buffer amount. 
+
+3.5.   OTHER PROTOCOLS 
+
+*Additional protocols are in the works related to View Change, Self-Forking, Proxy-Reencryption, and Economic protocols, as
+
+well as The Equilibrium Price of ZCN, and The Mathematical Valuation of ZCN Token. The overarching objective with 0̷Chain’s 
+
+library of protocols is to provide a complete “a-to-z” platform for a dApp, such as 0̷Box, to seamlessly operate on our chain 
+
+without the need to worry about infrastructure and protocols.
+
+
+
+ 28
+
+Section 4 
+Appendices
+
+Appendices
+
+
+
+ 29Appendix 1: Team
+
+Appendix 1: Team
+
+S A S W ATA B A S U
+CEO & FOUNDER
+
+T O M  A U S T I N
+CO-FOUNDER
+
+S I VA  D I R I S A L A
+CTO & VP OF ENGINEERING
+
+Our founder and CEO, Saswata Basu, has 20 years of experience with startups and 
+
+corporate product development. His first startup, InSpan, had a successful exit in 
+
+2000 to CommScope. He has worked on startup initiatives at Intel and Harris in 
+
+mobile, wireless backhaul, IoT and energy efficiency sectors.
+
+Our co-founder, Tom Austin, is an Associate Professor at San Jose State University, 
+
+and is a well-renowned cyber security and programming language expert. He is the 
+
+inventor of our storage and token reward protocols. 
+
+Our Chief Technical Officer, Siva Dirisala, has 20 years of experience as a computer 
+
+architect and product developer at Service Now & Oracle, and has been solving 
+
+complex algorithmic and implementation problems his entire career. 
+
+The inception of 0̷Chain began in July 2017, which led to a white paper in December 2017 and funding 
+in February 2018. We have a world-class team, headquartered in downtown San Jose, heart of Silicon 
+Valley. We think out of the box and are impassioned by blockchain technology.  
+
+For more details visit https://0chain.net/team.
+
+https://0chain.net/team
+
+
+ 30Appendix 2: Understanding 0̷Chain Finality
+
+Appendix 2: Understanding 0̷Chain Finality
+
+The 0̷Chain consensus protocol has been tested on a large cluster of 100 miners with 4 block 
+
+generators per round and 30 sharders with 6 block replicators per round. The testing is done in a 
+
+non-Byzantine condition but realistic network conditions by spreading the 100 miners across 14 
+
+different data center zones spanning the world (California, Canada, Frankfurt, Ireland, London, 
+
+Mumbai, Ohio, Oregon, Paris, Seoul, Singapore, Sydney, Tokyo and Virginia). 
+
+These experiments and associated data points provide empirical evidence to how the finality time 
+
+is related to the various underlying parameters. The following diagram illustrates a full cycle of 
+
+what happens between two successive rounds getting started. 
+
+
+
+ 31Appendix 2: Understanding 0̷Chain Finality
+
+1. CONDITIONS 
+
+When a notarized block is first discovered in a round, a miner does two things:
+
+1) Start the next round.
+
+2) Wait to start the finalization process for the previous round.
+
+These two processes are independent and are shown as two separate timelines above. We define the steady state finality of 
+
+a block is the time between invoking finalization between two successive rounds. So, as long as the finalization wait time, 
+
+Tfw, is less than the total time to generate, send and verify a block referred to as round processing time, Tr, then the steady 
+
+state finality of a block is given by Tr.
+
+
+
+ 32Appendix 2: Understanding 0̷Chain Finality
+
+1. CONDITIONS (CONT’D) 
+
+Tr = VRF Share send time + Block Generation time + Block Proposal Wait time + Block 
+
+Verification Time + Verification tickets send time.
+
+Note that this is the ideal time where all of these are assumed to happen simultaneously at all the miners, but in reality 
+
+there will be some variance of when each of these steps are started at each miner.
+
+The above formula gives the following key insights
+
+1) If the block proposal wait time is sufficiently large, every node receives all the blocks being proposed for the 
+
+round before the verification starts. This ensures only one block is signed (for honest nodes)
+
+2) If the block proposal wait time is too little, most blocks will arrive after the wait time and hence the chance of 
+
+signing lower ranked blocks increases resulting in several blocks getting notarized in a given round.
+
+Another option is to use a dynamic block proposal wait time. Under this scheme, as long as there is at least one 
+
+generator whose network time is less than the median network time, a miner will choose that as the block proposal wait 
+
+time. If in a round, there are no generators whose network time is less than the median, then the configured block 
+
+proposal wait time will be used. If there are multiple generators whose network time is less than the median, then among 
+
+all these generators whoever has the higher ranked block, their network time is selected as the block proposal wait time. 
+
+This scheme tries to balance between waiting arbitrarily too long and too short striving to speed up the finality and reduce 
+
+number of notarized blocks in a given round by signing fewer blocks.
+
+
+
+ 33Appendix 2: Understanding 0̷Chain Finality
+
+1. CONDITIONS (CONT’D) 
+
+We define steady state finality (time between running two successive finalizations) and start-to-finish block finality (time 
+
+between the starting of a block and eventually finalizing it). Note that the finality here is a local view of the individual 
+
+miner.
+
+• Steady state block finality time = Tr (when Tfw < Tr)
+
+• Start-to-finish block finality time = Finality Lag * Tr + Tfw
+
+• Where finality lag is the number of blocks by which the finality lags.
+
+2. RESULTS 
+
+In our experiments, we found that the block generation time and verification times are significant and comparable to 
+
+network times and even the network time itself is different for short messages such as sending VRF shares and 
+
+verification tickets vs sending a large message like a block. For example, the block message time was 3 times or more 
+
+than the short message time. Based on these observations, in our protocol, every miner maintains the time it takes to 
+
+send a small message and a large message to every other miner and can be configured to use these data points to 
+
+dynamically optimize the finality time.
+
+
+
+ 34Appendix 2: Understanding 0̷Chain Finality
+
+2. RESULTS (CONT’D) 
+
+In our experiments, we found that the block generation time and verification times are significant and comparable to 
+
+network times and even the network time itself is different for short messages such as sending VRF shares and 
+
+verification tickets vs sending a large message like a block. For example, the block message time was 3 times or more 
+
+than the short message time. Based on these observations, in our protocol, every miner maintains the time it takes to 
+
+send a small message and a large message to every other miner and can be configured to use these data points to 
+
+dynamically optimize the finality time.
+
+The experiments were conducted by varying the block proposal wait time, wait mode (static vs dynamic) and the finality 
+
+wait time.
+
+The below table shows the steady state block finality, start to finish block finality and percent of rounds notarized with 1, 
+
+2, 3 and 4 blocks (as we have 4 generators). The Tfw, the finalization wait time, is twice the Network Relay time indicated 
+
+in the table. In our experiments, the finality lag is 3 blocks. Hence, Start-to-finish finality time = 3 * Tr + Tfw.
+
+
+
+ 35Appendix 2: Understanding 0̷Chain Finality
+
+3. OBSERVATIONS
+
+The following observations have been made based on the aforementioned results:
+
+1. No rounds with 4-notarized blocks were observed in any of the scenarios.
+
+2. With static block proposal wait time, the steady state finality increases little from 1238.57 ms to 1267.28 ms when the wait time
+
+increases from 200 to 400 but increases much higher to 1424.32 when the wait time is 800. When the wait time is too short, it is still
+
+required to wait to receive the first block. So, there is a minimum built-in wait time. Hence, any block proposal wait time below this
+
+minimum wait time will not reduce the stead state finality. Similarly, any wait above the time when all blocks are received will result in
+
+delaying the verification process and hence directly contribute to the rond processing time, Tr.
+
+3. As the static wait time increased, the percent of rounds with single notarized blocks increased showing very high percent at 800 ms
+
+wait confirming that majority of the nodes are able to send a block within this time.
+
+4. Increase of the finality wait time (Tfw) from 400 to 1200 didn’t impact the steady state finality much by only increasing it from 1238.57
+
+to 1251.13. This is expected because, as long as the finality wait time is less than, Tr, the time between two successive rounds, the
+
+steady state finality only depends on Tr. Since, Tr is 1238.57 when the finality time was 400, increasing it to 1200 didn’t significantly
+
+increase the steady state finality.
+
+5. However, increase in Tfw, does increase the start to finish block finality linearly. For example, the finality increased from 4497.22ms to
+
+5338.80ms and 4497.22+3*(1251.13-1238.57)+(1200-400) = 5334.90 which is close to the observed value of 5338.80 and agrees
+
+with the start to finish finality time formula given above.
+
+6. While static wait of 800ms resulted in 99.43% rounds with single notarized blocks, 800ms dynamic wait resulted in only 95.93% but
+
+steady state finality reduced from 1424.32ms to 1260.01ms. This is the expected trade-off between improving finality and ending up
+
+with multiple notarized blocks in a round.
+
+7. Unlike the static wait, steady state finality is not impacted much with increasing the block wait proposal time under dynamic wait. This
+
+is again expected because most of the time the wait will be within the median network time and only occasionally it will exceed that
+
+but still be the network time of one of the generators that is smaller than the dynamic wait time. Hence, even after increasing the
+
+dynamic wait time to 1600ms, the steady state finality hardly had any impact.
+
+These experimental results provide valuable insights for us to fine tune the key parameters as needed. In dFinity, the process 
+
+timings such as block generation and verification times are assumed to be 0. The network time is considered the same for a small 
+
+message and a large message. In 0̷Chain protocol implementation, the process timings are explicitly considered and also the time 
+
+for small and large messages is treated separately.
+
+
+
+ 36Appendix 3: Consensus Protocol
+
+Appendix 3: Consensus Protocol
+
+
+
+Appendix 3: Consensus Protocol
+
+Full Document Available At: Https://Drive.Google.Com/File/D/1Kcfkq1Hmtgxvxzztalnkvhmmicwoia7K/View
+
+https://drive.google.com/file/d/1KcfkQ1HmtGXvXzZtalNkVHMmIcwOiA7k/view
+
+
+ 38Appendix 4: Storage & Token Reward Protocol
+
+Appendix 4: Storage & Token Reward Protocol
+
+
+
+Appendix 4: Storage & Token Reward Protocol
+
+Full Document Available At: Https://Drive.Google.Com/File/D/1Nqowfwbh-J3Uyrcx8Gmtzauc3Wdxa9Tu/View
+
+https://drive.google.com/file/d/1nqOwFWbH-j3uYRcx8gmTzAuC3wDxa9tu/view
+
+
+ 40Appendix 5: Split-Key Protocol
+
+Appendix 5: Split-Key Protocol
+
+
+
+Full Document Available At: Https://Drive.Google.Com/File/D/1Urvaae0W1Dto9N2Jiknk4Lcqzgeye8Pl/View 
+
+Appendix 5: Split-Key Protocol
+
+https://drive.google.com/file/d/1urvaAe0w1DtO9n2JIknK4lCQzGEyE8Pl/view
+
+
+

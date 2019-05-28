@@ -1,0 +1,702 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+W H I T E P A P E R
+
+AdCoin
+
+
+
+2 AdCoin Whitepaper Version: 3.0
+
+Blockchain offers a lot of great opportunities for technological advancement. 
+The first widely adopted blockchain was Bitcoin and was literally called 
+“internet money”. While Bitcoin is still the dominant cryptocurrency, there are 
+a lot of problems for actually using that internet money to perform (micro)-
+payments. AdCoin aims to improve the online advertising payments by using 
+the advantages of blockchain technology.
+
+Payments with AdCoin can be performed 24/7, have an extremely low 
+transaction fee and don’t require anything more than an AdCoin wallet 
+address. For the advertising market this means cost reduction, faster 
+payments, less risk and the ability to perform micro-payments. Publishers 
+who receive AdCoin can either keep them or convert them to other 
+cryptocurrencies. 
+
+What the AdCoin team achieved so far:
+• Listed on 3 exchanges;
+• Wallets for Windows, Mac, Linux, Android and a universal web wallet;
+• Implementation of SegWit protocol and Dark Gravity Wave 3 difficulty 
+
+regulator;
+• Complete API for purchasing, sending, receiving and storing AdCoin;
+• Advertising platform;
+• Integration with Wordpress (WooCommerce);
+• Integration with Drupal;
+• Stand-alone Wordpress payment plugin;
+• Stand-alone Wordpress advertising plugin.
+
+What’s next:
+• Integrating with (major) advertising networks
+• More integrations with content management systems
+• Releasing AdCoin advertising tools, scripts and plugins
+
+The goal of AdCoin is to bring cryptocurrency and blockchain technology to 
+everyone who is working w  ith online advertising, from a mother just starting 
+her personal blog to a multinational who wants to perform payments overseas. 
+
+A B S T R A CT
+
+
+
+Version: 3.0 AdCoin Whitepaper 3
+
+Welcome to our whitepaper! In this whitepaper we will explain why and how 
+AdCoin is created, who is behind AdCoin and what AdCoin aims to achieve. 
+
+We are a group of finance-, marketing and IT geeks with a strong need to 
+solve our problems through innovation. With this in mind we created AdCoin, 
+a cryptocurrency that aims to improve the way online advertising is paid. By 
+reducing costs, 24/7 availability and a secure network we create value for 
+the online advertising market. We want to facilitate advertisers, advertising 
+agencies, publishers and all other advertising related transactions. This 
+separates AdCoin from a lot of other (advertising) blockchain startups, we are 
+not here to replace existing advertising companies.
+
+Thank you for your attention so far! Still interested? Please read the rest of the 
+whitepaper and let us know if you have any questions or remarks!
+
+I N T R O D U CT I O N
+
+
+
+4 AdCoin Whitepaper Version: 3.0
+
+ABSTRACT  2
+INTRODUCTION  3
+ONLINE ADVERTISING   5
+MARKET AND INDUSTRY  5
+THE CREATION OF ADCOIN  8
+WHY ADCOIN  9
+ADCOIN FOR ADVERTISING NETWORKS  10
+ADCOIN FOR ADVERTISERS  11
+ADCOIN FOR PUBLISHERS  12
+STRATEGY  13
+ADVERTISING PLATFORM  16
+BLOCKCHAIN DETAILS  17
+PRESS  18
+ADCOIN WEB WALLET  19
+ADCOIN TEAM  21
+ADCOIN COMPANY  23
+CONTACT US  23
+
+I N D E X
+
+
+
+Version: 3.0 AdCoin Whitepaper 5
+
+ONLINE ADVERTISING MARKET FIGURES
+The online advertising market has been growing for years. While some (new) 
+channels are getting a bigger percentage of the total online advertising spend, 
+all separate categories are growing autonomously. 
+
+According to Statista1 the online advertising market will keep growing every 
+year until at least 2022. The expectation is that the market will reach $281 
+billion in 2018 and nearly $400 billion in 2022.  
+
+This data is supported by research of Magna Global2, that shows us that the 
+online advertising market has grown in 2017 (17%) and is going to grow in the 
+coming years while offline ad sales will decrease by 0.5% to $298 Billion in 
+2018.  Magna global expect that the digital ad market will reach $348 Billion 
+in 2022. The data of Magna Global is slightly less optimistic than Statista, 
+but both support the view that the online advertising market will continue to 
+increase in size.
+
+1 Statista Digital Advertising Forecast, www.statista.com
+
+2 Magna Global Forecast Winter Update December 2017, www.magnaglobal.com
+
+O N L I N E A D V E RT I S I N G 
+M A R K E T A N D I N D U S T RY
+
+
+
+6 AdCoin Whitepaper Version: 3.0
+
+In the figure we can clearly see that the US is the biggest country in the 
+advertising market, which is one of the reasons why AdCoin focusses on the 
+US ad market. Following the US are China, UK, Japan and Germany. Magna 
+Global states that the increase in the online advertising market will be due to 
+a further increase in these mature markets rather than emerging advertising 
+markets. 
+
+ONLINE ADVERTISING INDUSTRY
+The online advertising industry is one of the biggest online markets and has 
+seen a lot of innovation; e.g. channels and media types. While the biggest 
+players maintain their dominant position when it comes to advertising, there is 
+a shift in advertising and publisher preferences. 
+
+Companies who want to gain brand awareness or publishers who have a 
+wide range of topics the classic way of online advertising through (irrelevant) 
+banners still works. However, there is an increasing interest from companies 
+to promote their products directly at their selected niches, which could 
+be anything from a blogger, vlogger, online magazine or a social media 
+influencer. Especially smaller publishers prefer alternative ways to monetize 
+their content. A research performed by content monetizing company VigLink 
+among 500 publishers and 100 advertisers shows that affiliate marketing and 
+Google’s publisher solution AdSense are neck-to-neck for monetising content. 
+
+Other Native
+Advertising
+
+Brand
+Partnership/
+Sponsorship
+
+Affiliate
+Marketing
+
+Google
+AdSense
+
+Display
+Advertising
+
+Paid Product
+Review
+
+
+
+Version: 3.0 AdCoin Whitepaper 7
+
+Intermediaries/third-parties
+
+You Other people
+and
+
+businesses 
+
+🏦🏦 🏦🏦
+
++fees, restrictions, slow, closed
+
+Your money
+at your bank
+
+Their bank
+
+ONLINE ADVERTISING PAYMENTS
+The online advertising markets has a huge amount of companies who are 
+buying and / or selling ads and therefor offer a wide variety of payment 
+options. When looking at the top advertising companies of the world, the most 
+commonly used options are Credit Card, PayPal or bank transfers.
+
+
+
+8 AdCoin Whitepaper Version: 3.0
+
+A lot of great products were created by trying to solve a personal frustration. 
+The idea for AdCoin also came from such a frustration. It’s hard to imagine 
+anyone who has not seen any online advertising, whether it’s a banner on a 
+news page or a short commercial before you are able to view an online video. 
+Advertising is an important part of the internet ecosystem and is needed 
+to continue to publish content for free. There are a lot of discussions about 
+online marketing, ranging from the number of ads that are shown to privacy 
+regulations. However what seems like a trivial part of online advertising is 
+paying for the ads, but we experienced that this can lead to extremely time-
+wasting frustrations, while spending significant amounts of money.
+
+First of all, not every country has Credit Card or PayPal as their primary 
+payment method. This makes it hard for a lot of people to pay for advertising 
+on some of the biggest (social) platforms on the world. While we used 
+corporate credit cards ourselves when running our businesses (all founders 
+were already entrepreneurs before starting AdCoin), we ran into other 
+problems. When you are scaling up your business you have increasing 
+marketing expenses. We found that, especially around national holidays, we 
+were unable to fund our credit card fast enough to pay for the online marketing 
+costs. This resulted in advertising accounts being suspended and a major 
+headache over getting our business back on its feet. While these are just two 
+things that we thought that could be solve through blockchain we found there 
+are a lot more benefits to using an advertising specific cryptocurrency. 
+
+In March 2017 we started brainstorming and meeting multiple times a week 
+to discuss how we could create a blockchain project to serve our purpose. 
+We did our research and spoke to all types of advertising companies and 
+individuals to confirm our assumptions.  After spending countless hours 
+reading and coding we launched the AdCoin blockchain on July 8th 2017. 
+
+T H E C R E AT I O N O F A D C O I N
+
+
+
+Version: 3.0 AdCoin Whitepaper 9
+
+There are a lot of advantages for using cryptocurrency over fiat currency 
+which we will describe thoroughly further down the whitepaper, but why do we 
+need AdCoin? There are multiple reasons for choosing our own blockchain 
+and cryptocurrency over existing solutions.
+
+Timing. At the time of the creation of AdCoin the first big Bitcoin fork was 
+heavily debated and the future of Bitcoin was uncertain. While there were 
+other cryptocurrency alternatives, such as Litecoin, it showed that the 
+consensus around the future of a cryptocurrency is very important.
+
+Individuality. The technological advancements of blockchain offer great 
+opportunities but also forces to make choices on what to adopt. Since we 
+want to focus solely on advertising related transactions there could be a 
+potential conflict of interest with cryptocurrencies that are used for a more 
+general purpose.
+
+Exchange rate. It should not come as a surprise that the cryptocurrency 
+market has been very volatile up until this point. By using a separate 
+cryptocurrency, it is possible to stabilize the price per AdCoin. The more 
+AdCoin becomes used in real applications the more stability it would bring 
+to the volume and therefor price. With the focus on a niche market, AdCoin 
+should be less influenced by external factors.
+
+Focus. With a clear focus on facilitating advertising related transactions 
+AdCoin can use all its resources on creating value for this market. 
+From creating awesome integrations to making decisions on blockchain 
+improvements, everything is done with our target group in mind! 
+
+W HY A D C O I N
+
+The AdCoin Network
+You
+
+Open, peer-to-peer, secure, instant, free
+
+Other people
+and
+
+businesses 
+
+
+
+10 AdCoin Whitepaper Version: 3.0
+
+SAVE MONEY
+Directly cut costs by saving on transaction fees. The average fee for AdCoin 
+is below 0,1%. AdCoin found that a lot of money has exchanged hands within 
+the advertising market without adding value. On average 7% of advertising 
+spend is wasted on transaction fees. That is over $15.000.000.000 per year!
+
+ELIMINATE PAYMENT RISK
+Most advertising networks use periodic billing to charge their fees to 
+advertisers. Around 80% of businesses don’t survive their first operational 
+year, which means that not all bills will be paid. Reduce the risk of not getting 
+paid by using AdCoin and charge your clients on a daily (or even hourly) 
+basis. With only a variable percentage fee it doesn’t matter how often you 
+charge them!
+
+MICRO TRANSACTIONS 
+Enable micro transactions and attract a whole new group of publishers! With 
+the normal processing- and administrative fees it’s not sustainable to pay the 
+small publishers on a regular basis. With AdCoin the fees are close to zero 
+and you can use the API’s to handle the administrative costs of your payouts.
+
+ANONYMOUS CAMPAIGNS
+Want to offer anonomity for your publishers? AdCoin transactions are placed 
+on the blockchain, but it will not reveal the identity of the publisher.
+
+A D C O I N F O R A D V E RT I S I N G 
+N E T W O R K S
+
+
+
+Version: 3.0 AdCoin Whitepaper 11
+
+ONE CURRENCY FOR ALL YOUR PAYMENTS
+Fund your advertising accounts with AdCoin. You don’t have to convert to 
+exotic fiat currency and can pay everything with one currency! No more hassle 
+with bank-transfers and waiting for the processing of your payment. Just one 
+wallet for all your advertising accounts worldwide.
+
+CHEAPER ADVERTISING
+AdCoin-powered advertising networks make use of the extremely low fee, so 
+they can offer a more competitive price per click or price per mille! A perfect 
+win-win situation in which all parties benefit using the blockchain.
+
+A D C O I N F O R A D V E RT I S E R S
+
+
+
+12 AdCoin Whitepaper Version: 3.0
+
+MICRO- OR INSTANT PAYMENTS
+With regular fiat currencies, you need to wait several days or weeks for your 
+payout to arrive. This is because advertising networks experience traditional 
+bank- and transaction costs by paying their publishers so they want to batch 
+their payments as much as possible. With AdCoin, advertising networks can 
+payout instantly and experiencing almost zero transaction fee on the network. 
+
+BENEFIT FROM INCREASING VALUE
+As a publisher, you can choose to convert AdCoin to fiat currency, however 
+a lot of the publishers would like to invest in cryptocurrency. You can either 
+keep the AdCoin and speculate on the scarcity or exchange it for other 
+cryotocurrencies (e.g. exchange it for GameCredits and buy a games).
+
+REINVEST
+A lot of publishers don’t just receive money for showing advertisements, 
+but also advertise themselves. With the low transactional fees and 24/7 
+processing of payments AdCoin is ideal to reinvest your advertising earnings.
+
+A D C O I N F O R P U B L I S H E R S
+
+
+
+Version: 3.0 AdCoin Whitepaper 13
+
+To create real value and a financial ecosystem the AdCoin team has chosen 
+to facilitate their partners as much as possible. This means that the team will 
+continuously provide tools to partner up with advertisers, advertising agencies 
+and publishers. The development is roughly divided into four different 
+categories.
+
+GETADCOIN.COM BACKEND
+The AdCoin team found that the wallet is one of the biggest obstacles for 
+new cryptocurrency users. AdCoin therefor created a user-friendly web wallet 
+which is linked to an order management system (converting fiat currency 
+to AdCoin) and all partners using the AdCoin payment gateway are able to 
+accept payments in AdCoin.
+
+API
+The API is a way to interact with an AdCoin Wallet without using the provided 
+interface. With the API you can see your account details, orders, transactions 
+and addresses. You can also create orders, addresses and pay people with 
+AdCoin. Create payment requests via our payment gateway etc.
+
+All features of the web wallet are available through a solid and detailed API. 
+Our goal is that, with a development team in place, any project should be able 
+to fully integrate with the AdCoin wallet within a day. Integrate with AdCoin 
+through https://www.getadcoin.com/api/
+
+S T R AT E G Y
+
+Wallet API features
+GET /me
+GET /orders
+POST /orders
+GET /paymentmethods
+GET /addresses
+POST /addresses
+POST /payto
+GET /balance
+GET /transactions
+
+Payment API features
+POST /api/payments
+GET /api/payments
+
+
+
+14 AdCoin Whitepaper Version: 3.0
+
+PAYMENT GATEWAY
+AdCoin has created a payment gateway which is linked to the web wallet. 
+This means it is extremely easy to pay or receive AdCoin. It can be as easy 
+as entering your e-mail and password to do a payment, which is instantly 
+broadcasted to the AdCoin network and verified after 6 blocks. To get a better 
+idea of what this payment gateway looks like we have created some images in 
+combination with the WooCommerce Payment plugin (see below). 
+
+INTEGRATIONS 
+To increase the adoption of AdCoin as the advertising payment standard some 
+integrations will be facilitated by the team. The goal is to create plugins and 
+off-the-shelf integrations for the most common content management systems 
+and e-commerce platforms. 
+
+Our first release (March 1st 2018) was a WooCommerce payment plugin. 
+The rest of the integrations (including a stand-alone payment solution and 
+advertising plugin for Wordpress) are scheduled for the upcoming half year 
+and can be found in the roadmap.
+
+ADCOIN PAYMENTS FOR WOOCOMMERCE
+Since a lot of websites are working with Wordpress and Woocommerce, the 
+AdCoin team decided to integrate the AdCoin payment API (see above) into 
+WooCommerce. The plugin offers the following features:
+• Accept payments directly into your personal AdCoin wallet.
+• Accept payment in AdCoin for physical, digital downloadable products and/
+
+or services.
+• Add AdCoin payments option to your existing online store with alternative 
+
+main currency.
+• Automatic conversion to AdCoin via realtime exchange rate feed and 
+
+calculations.
+• Zero fees and no commissions for AdCoin payments processing from any 
+
+third party.
+• Powerful dashboard on wallet.getadcoin.com to easily keep track of your 
+
+payments.
+• Fast in-house support. You will always be assisted by someone who knows 
+
+our products in-and-out.
+
+
+
+Version: 3.0 AdCoin Whitepaper 15
+
+Image: AdCoin for Woocommerce
+
+Image: AdCoin for Woocommerce
+
+
+
+16 AdCoin Whitepaper Version: 3.0
+
+AdCoin Click is the crypto advertising platform for every crypto related 
+business. It connects the best fitting advertisers and publishers with unlimited 
+possibilities. AdCoin Click is the result of AdCoin’s ambitions to improve the 
+online advertising world by using the advantages of blockchain technology.
+
+FEATURES
+• Blockchain and cryptocurrency only
+• Detailed targetting options
+• Fraud detection
+• Text, banner and pop-up ads
+• Referral program (earn 5% from advertisers and publishers)
+
+Start advertising or monetizing now on www.adcoin.click
+
+A D V E RT I S I N G P L AT F O R M
+
+ 
+
+Image: Publisher dashboard
+
+
+
+Version: 3.0 AdCoin Whitepaper 17
+
+AdCoin is built on the Litecoin code. With the hardfork that took place in 
+February 2018 it was decided to remove a lot of the custom code that AdCoin 
+implemented in the initial release and move to a code as close to Litecoin as 
+we could, of course with our own parameters. In addition, we added the Dark 
+Gravity Wave 3 difficulty regulator to improve the block spacing.
+
+SegWit was accepted on February 3rd 2018
+Dark Gravity Wave 3 was accepted on block 27000
+
+B LO C K C H A I N D E TA I L S
+
+
+
+18 AdCoin Whitepaper Version: 3.0
+
+P R E S S
+https://www.ccn.com/new-crypto-advertisement-platform-is-using-adcoin/
+
+https://cointelegraph.com/news/company-launches-blockchain-platform-to-
+enable-transparent-and-low-cost-advertising
+
+https://www.newsbtc.com/2018/05/08/dutch-startup-adcoin-launches-new-
+crypto-advertisement-platform/
+
+
+
+Version: 3.0 AdCoin Whitepaper 19
+
+AdCoin needs to be stored safely in a wallet. The AdCoin team developed 
+wallets for Mac and Windows as well as a web wallet.
+
+Our AdCoin team took great care in developing the web wallet. The wallet is 
+packed with great features such as QR-codes, two factor authentication (2FA), 
+search by email, integrated order management and a clear overview of the 
+user’s current balance and past transactions. 
+
+Digital security is a high priority in all releases from the AdCoin team. Our 
+web wallet is secured with the lastest protection details, to make sure that the 
+AdCoin are stored safely.
+
+The AdCoin web wallet is currently available in English aswell as in German. 
+More languages are coming in the near future. 
+
+A D C O I N W E B WA L L E T
+
+ 
+
+Image: Interface AdCoin Web Wallet
+
+Image: New payment
+
+
+
+20 AdCoin Whitepaper Version: 3.0
+
+Our development team focussed on usability. It is very easy to send your 
+AdCoin to other people. You only need to enter a valid email address and the 
+amount of AdCoin you want to send in the ‘New payment’ option and press 
+‘Submit’. Or transfer AdCoin by scanning a QR Code. 
+
+Image: Overview last made transactions
+
+Image: Addressbook for (frequently)used contacts
+
+Image: Overview Orders
+
+
+
+Version: 3.0 AdCoin Whitepaper 21
+
+The team started with 4 entrepreneurs, each with their own specialism. The 
+team grows rapidly and is getting more community driven. Below we present 
+the current team structure. We want to emphasize that the people working to 
+improve AdCoin are not necessarily holding AdCoin or working for the AdCoin 
+company.
+
+A D C O I N T E A M
+
+FOUNDERS
+
+DEVELOPERS
+
+Patrick van Dijl
+Fintech enthusiast who enjoys the 
+human-to-human part of business.
+
+Niels-Jan van der Hoek
+The networker who connects AdCoin 
+to executives and the media.
+
+Ricardo Oosterling
+Prefers to talk in Linux command 
+lines while working on our security.
+
+Jerry Donker
+The serial entrepreneur who lives the 
+“getting things done” philosophy.
+
+Melissa Gol
+Enjoys working on big projects and 
+chooses coding over sleeping.
+
+Kiran Kovacic
+Telegram bots have no secrets for 
+this man.
+
+Xander Robbemond
+The silent force in our team.
+
+Anne Douwe Bouma
+Core developer and the brains behind 
+the web wallet and API. 
+
+Maxim van Dijk
+The integration guru. Work hard, 
+integrate harder.
+
+Peter Willemsen
+Blockchain and C++ genius, the go-to 
+guy for the AdCoin chain.
+
+
+
+22 AdCoin Whitepaper Version: 3.0
+
+ADVISORS
+
+COMMUNITY MANAGERS AND MODERATORS
+
+Jeroen van IJzendoorn
+The Telegram moderator who always 
+smiles and thinks in possibilities. 
+
+Ivan Ho
+Only thinks in solutions and connects 
+us to the outside world.
+
+Nick Hoedemakers
+Our first miner and crypto enthusiast 
+who helps out wherever he can.
+
+MARKETING & PR
+
+Lars Berger
+Breathes optimism and reaches out 
+to all AdCoin customers. 
+
+Matthijs Munter
+Translating the wishes of the 
+stakeholders to the best possible UX.
+
+Luc Nugteren
+The target audience is always on the 
+mind of this crypto enthusiast. 
+
+
+
+Version: 3.0 AdCoin Whitepaper 23
+
+We firmly believe that the community around AdCoin is the foundation of 
+(future) success and that decentralization is what makes cryptocurrency 
+great. Unfortunately, regulations force us to centralize in some way. AdCoin is 
+registered at the Chamber of Commerce in the Netherlands under the name 
+AdCoin Click B.V. The company’s main purpose is to perform the conversion 
+between fiat currency and AdCoin. In addition, it is the legal entity for 
+partnerships with advertising companies. 
+
+CONTACT US
+If you have any questions for the AdCoin Team: Feel free to contact us 
+through one of our communication channels:
+
+www.getadcoin.com
+Telegram: adcoinacc
+Facebook: getadcoin
+Twitter: @getadcoin
+
+A D C O I N C O M PA N Y
+
+
+
+24 AdCoin Whitepaper Version: 3.0
+
+AdCoin
+Whitepaper
+Version 3
+
+

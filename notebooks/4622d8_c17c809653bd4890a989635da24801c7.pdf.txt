@@ -1,0 +1,484 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 A brief note about ACRE Coin and what our team seeks to do with this revolutionary project.
+INTRODUCTION
+
+2 General market observation and occurrence that 
+ACRE Coin intents to disrupt.
+
+ MARKET OVERVIEW
+
+3  ACRE Coin’s adoption in mass market and ways  of 
+achieving it
+
+ PRACTICAL CRYPTOCURRENCY
+
+4
+MARKET OUTREACH, ROADMAP & COIN SPECS
+Our strategy on how to market ACRE Coin , our 
+
+realistic roadmap and the unique incentives for 
+
+HODLER
+
+
+
+ACRE Coin is a joint proof of stake and Masternode consensus that designs to provide disruptive decentralized 
+property-related ecosystem with a view to shift the paradigm of property rental industry. ACRE coin embraces the 
+blockchain revolution and aims to develop and operates real estate portals and delivering the most comprehensive 
+set of related real estate services including Airbnb concept-like as our core project followed by advertisement, 
+marketing and legal services in our website getaway. As we know that property dealings involve meeting of face, 
+payments for the aforesaid services will be in the form of ACRE coin via scanning of QT codes on the mobile wallets. 
+ACRE Coin seeks to fill the hotbed of blockchain-based property rental transactions.
+ 
+Setting periodical realistic targets, ACRE Coin backed by its experienced team in related-field will open a new getaway 
+to serves as a medium of exchange for consumers, home-owners, property agents, developers, lawyers and other 
+relevant parties. Our unique website-crypto platform shall offers property rental listings, geopolitical updates and 
+property related information that will disrupt legacy property rental website such as AirBnB.
+ 
+ACRE Coin is derived from PIVX Platform and will adopt its best standard solutions.
+
+
+
+AirBnB and  ACRE Coin scalability
+
+Targeted and effective marketing strategy will 
+
+be employed by our team to provide awareness 
+
+of an alternative to AirBnB
+
+ACRE Coin wants to carve out a market for crypto enthusiasts with low-
+
+fee for the society who has to bear with the ever changing terms and 
+
+conditions of AirBnB
+
+Since the company’s founding in 2008, there have been over 200 million total 
+
+guest arrivals​ at Airbnb listings around the world. They chose their rooms and paid 
+
+for everything online. But their beds were provided by private individuals, rather 
+
+than a hotel chain.. It is the most prominent example of a huge new “sharing 
+
+economy”, in which people rent beds, cars, boats and other assets directly from 
+
+each other, co-ordinated via the internet
+
+
+
+15%
+Service fee on the guestService fee on the host
+
+3%
+ACRE’s fee
+
+A  custom  API  will  be  created  to  allow  conventional property platforms  to  create property postings and  connect to our 
+
+platforms. Co-existence and a win-win situation is key
+
+ACRE Coin plans to create a platform with similar experience of AirBNB where besides payment of rental with its own ACRE Coin. A 
+
+host sets a price. Users book, paying for rooms with ACRE Coin. Then, when guests leave and indicate they are happy with the 
+
+experience, the ACRE Coins are released to the host. 
+
+Further, with ACRE Coin mobile wallet at hands, any of the transacting parties can seamlessly pay for rent and skip conventional 
+
+banking institution. 
+
+3%
+
+
+
+ Website for hosts to  list their property for rent and 
+
+users to search for the most suitable accommodation 
+
+that suits their needs
+
+ ACRE’s PROPERTY WEBSITE
+
+A d o p t i n g  t h e  l ay o u t s  o f  t h e  m o s t  u s e r - f r i e n d l y  a n d 
+
+comprehensive websites in the internet, our specialized web and 
+
+mobile developer will design a property rental hub that provides 
+
+visibility of the subject matter (property and price) from all over 
+
+the world and the equally important dispute resolution and 
+
+helpline.
+
+
+
+Consumers can write unbiased review about 
+
+their experience during the stay. Once ACRE 
+
+coin is released to the host, consumer will be 
+
+able to drop review. This ensures that each 
+
+review recorded is not bogus and is 
+
+independently verified.
+
+Hosts and consumers can verify the 
+
+transaction via our explorer and prevent 
+
+fraud which is prevalent in conventional 
+
+fiat-banking transactions.
+
+Hosts list their 
+
+property for rent via 
+
+our website
+
+Photos of the property 
+
+will be prominently 
+
+displayed on our website 
+
+for convenience of users.
+
+
+
+ACRE TEAM is aware of the needs to project this brand to wider global audience and helping the public to understand the benefits 
+and sustainability of this ecosystem. 
+
+To ensure that the public can truly relate to the brand and feel connected with ACRE Coin, we aim to market this ACRE Coin vide 
+several ways :
+
+Sponsored Twitter Ads via Bounty
+
+Sponsored Masternode Online Ads
+
+Youtube Videos
+
+Awareness 
+
+Bounties
+
+Official Discord Server
+
+ANN.
+
+Official Twitter & 
+
+Posts.
+
+Official Telegram Channel
+
+Official SubReddit
+Medium & Steemit
+
+Printed Ads on prominent place such as highway, 
+
+buildings, cars
+
+
+
+ACRE Coin is mounted on “Cross-
+Planks Protocol” which achieves cross-
+chain communication via “planks” – 
+a protocol that enables 
+communication between the 
+Participating Network and Connecting 
+Network. Consensus across planks is 
+achieved by “validators” whose 
+behavior is managed by various 
+algorithms and an incentive 
+mechanism.
+
+The plank’s validators are managed by 
+people with a stake in the Connecting 
+Network. If two or more planks validators 
+within ACRE approve the interchain 
+transaction, the contract will be processed. 
+The planks’ validators are managed by 
+people with a Stake or Masternode in the 
+Connecting Network. If two or more planks 
+va l idators  with in  ACRE approve the 
+interchain transaction, the contract will be 
+processed.
+
+
+
+ACRE Coin anchors itself on fair-rewards 
+
+for each and all layers of the users of 
+
+ACRE’s  ecosystem,  f rom the  ear ly 
+
+adopters to the future stakeholders. As 
+
+each milestones is achieved by ACRE 
+
+ac co rd i n g  to  i t s  ro ad m ap ,  a l l  t h e 
+
+stakeholders of ACRE will be rewarded 
+
+accordingly.
+
+
+
+ACRE MASTERNODE 
+
+HOLDER
+
+. 
+ACRE HODLER 
+
+ACRE EARLY ADOPTER
+Those who purchased ACRE Coin in pre sales will be entitled to a bonus of 10% 
+
+extra on the collateral.
+
+Stakeholder of ACRE who holds the ACRE Coin for a period of  two months 
+or more will be rewarded bonus coins of 5% of their holdings.
+
+q Due to Masternode Holder crucial responsibility to secure the network, 
+85%  of  the  block  reward  will  go  to  Masternode  holders.  
+
+q Eg.: if  the  block  reward  is  20  Acre  Coins,  17  will  be  rewarded  to  
+the  Masternode  holder.  
+
+q In  the  current  structure  of  Acre  Coin,  the  max  supply  will  be  
+reached  within  7 years. 
+
+q As  there  are  more  Masternodes  generated  daily,  more  of  the  static  
+coin  supply  will  be  locked.  With  these  variables,  hyperinflation  
+becomes  a  non-issue  and  the  coin  will  retain  value  greatly.
+
+q Acre  Coin  will  reward  early  coin  holders  up  to  10,000%  per  year.
+
+
+
+  
+
+  
+
+ 
+
+Algo
+
+Quark 
+
+Total Supply: 
+
+25,000,000
+
+MN requirement: 
+
+5,000
+
+Premine: 
+
+250,000
+
+Block time: 
+
+60 seconds 
+
+Block size: 
+
+2MB
+
+(154 transaction/s)
+
+MASTERNODES
+
+85 % 15 %
+
+POS
+
+
+
+Block Reward
+premine   -    200  1,250 
+
+instamine  201  1,201  1 
+ 1,202  25,000  20 
+
+ 25,001  48,500  15 
+ 48,501  135,000  20 
+
+ 135,001  350,000  15 
+ 350,001  550,000  10 
+ 550,001  3,943,121  5 
+
+
+
+WEEK 1
+WEEK 3
+
+WEEK 15
+WEEK 8
+
+Launch of ACRE’s 
+
+website and pre-
+
+sales.
+
+Implementation of ACRE 
+
+Coin as payment system 
+
+i n  l e g a c y  p r o p e r t y 
+
+platform. 
+
+Listing of 
+
+cryptobridge and 
+
+MNO
+
+WEEK 5
+WEEK 7
+
+Launch of ACRE’s Property Website.
+
+WEEK 9
+
+Introduction of various joint-venture 
+
+& partnerships with conventional 
+
+property platforms.
+
+WEEK 11
+
+Listing at other exchanges such as 
+
+Cryptopia, Coinexchange.
+
+Bonus payouts for ACRE 
+
+HOLDER and account 
+
+taking for bonus.
+
+Launch of ACRE’s Mobile Wallet.
+
+
+
+The Founder of Acre Coin who has vast experience in the 
+
+workings and intrinsic of property markets in particular 
+
+South East Asia. A former member of Council for Estate 
+
+Agencies  of  S ingapore who sees the potent ia l  of 
+
+combining the emerging technology of blockchain with 
+
+simplistic property getaway cater to one of the most 
+
+populous region in the world.
+
+Jason
+A Real Estate Agent with an Estate Agency license 
+
+awarded by the Board of Valuers, Appraisers and 
+
+Estate Agents Malaysia (LPPEH) and himself the 
+
+owner of the one of the biggest Real Estate Firm who 
+
+has recruited 300 Real Estate Negotiators to engage 
+
+in sale and rental of upmarket properties in Malaysia.
+
+Desmond
+
+
+
+Our blockchain developer who will be responsible for 
+
+d e s i g n i n g ,  i m p l e m e nt i n g  a n d  s u p p o r t i n g  a 
+
+distributed with extra layer of anonymity blockchain-
+
+based network around our business model. He will 
+
+also be responsible in designing our web-wallets, 
+
+mobile wallets integrating our property getaway.
+
+Desi Jeffrey
+A pract ic ing  lawyer  in  Malays ia  wi th  a  long-
+
+established background in real estate transactions and 
+
+land law, regularly advise on land matters, housing 
+
+and property developments, government compulsory 
+
+acquisitions and joint development for housing and 
+
+commercial properties.
+
+
+
+
