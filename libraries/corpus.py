@@ -9,6 +9,7 @@ import string # for punctuation
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
+import re
 
 ###########################################################
 ###########################################################
@@ -54,18 +55,19 @@ mystops = ['mr', 'said', 'sir', 'upon', 'mrs',
                                     'mind', 'right', 'house', 'three','every', 'day',
                                     'put', 'thats', 'quite',
                                     'call', 'could', 'even', 'eye', 'get', 'give', 'let', 'make', 'open',
-           'reply', 'turn', 'would', '•' , '–']
+           'reply', 'turn', 'would', '•' , '–','\uf0a7']
             
 
 
 def makeCleanCorpus(dataset,
                     removePunct=True,
-                    removePunctExcept=False,
                     removeNums=True,
                     lower=True,
                     stops=[],
                     removeStopw=True,
-                    lemmatize=False):
+                    lemmatize=False,
+                    removeURL=True,
+                    makeSentences=False):
     '''
     The makeCleanCorpus function will look for text files in the directory 
     specified by abspath. Change this to suit you.
@@ -89,20 +91,26 @@ def makeCleanCorpus(dataset,
     clean_files = {}
         
     for filename, text in dataset.items():
+        
         print('Cleaning:', filename)
+        
         StopWords = stopwords.words("english") + mystops
         
         if lemmatize:
             lemmatizer = WordNetLemmatizer()
-            
+        
+        if removeURL:
+            text = re.sub(r"((mailto:\w+)|(tel:\w+)|(www)|(http(s|):\/\/\w+)).+", "", text)
+        
         # remove punctuation
         # use the three argumnt form of text.maketrans()
-        if removePunct:
+        if (removePunct and not makeSentences):
             text = text.translate(text.maketrans('', '', string.punctuation))
             
         # remove punctuation except the point (to make sentences)
-        if removePunctExcept:
+        if makeSentences:
             text = text.translate(text.maketrans('', '', string.punctuation.replace(".","")))
+        
         # remove numbers
         if removeNums:
             text = ''.join([x for x in text if not x.isdigit()])
@@ -120,8 +128,10 @@ def makeCleanCorpus(dataset,
         if removeStopw:
             text = ' '.join([word for word in text.split() if word not in StopWords])
              
-        #print(text[0:700])
-        #print("=" * 80)
+        if makeSentences:
+            text = nltk.tokenize.sent_tokenize(text)
+            
+        
         clean_files[filename] = text
     
     print ("Done!")
