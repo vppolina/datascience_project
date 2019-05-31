@@ -55,7 +55,7 @@ mystops = ['mr', 'said', 'sir', 'upon', 'mrs',
                                     'mind', 'right', 'house', 'three','every', 'day',
                                     'put', 'thats', 'quite',
                                     'call', 'could', 'even', 'eye', 'get', 'give', 'let', 'make', 'open',
-           'reply', 'turn', 'would', '•' , '–','\uf0a7']
+           'reply', 'turn', 'would', '•' , '–','\uf0a7', '◦', 'i.']
             
 
 
@@ -91,14 +91,17 @@ def makeCleanCorpus(dataset,
     clean_files = {}
         
     for filename, text in dataset.items():
+        
         print('Cleaning:', filename)
+        
         StopWords = stopwords.words("english") + mystops
         
         if lemmatize:
             lemmatizer = WordNetLemmatizer()
         
         if removeURL:
-            text = re.sub(r"http\S+", "", text)
+            #text = text.replace("\n"," ")
+            text = re.sub(r"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.\\~#?&\/\/=\s]*)", "", text)
         
         # remove punctuation
         # use the three argumnt form of text.maketrans()
@@ -128,6 +131,9 @@ def makeCleanCorpus(dataset,
              
         if makeSentences:
             text = nltk.tokenize.sent_tokenize(text)
+            text = [i.replace(".","") for i in text]
+            text = [x for x in text if x]
+
         
         clean_files[filename] = text
     
